@@ -1,0 +1,13 @@
+<svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="0.888672" width="40" height="40" rx="12" fill="url(#paint0_linear_12734_6350)"/>
+<path d="M26.6322 16.2461H13.3679C12.6354 16.2461 12.0415 16.84 12.0415 17.5725V20.2254C12.0415 20.9579 12.6354 21.5518 13.3679 21.5518H26.6322C27.3648 21.5518 27.9586 20.9579 27.9586 20.2254V17.5725C27.9586 16.84 27.3648 16.2461 26.6322 16.2461Z" stroke="white" stroke-width="1.43" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M26.6322 21.5518V27.5207C26.6322 27.8725 26.4924 28.2099 26.2437 28.4586C25.995 28.7073 25.6575 28.8471 25.3058 28.8471H14.6943C14.3426 28.8471 14.0052 28.7073 13.7564 28.4586C13.5077 28.2099 13.3679 27.8725 13.3679 27.5207V21.5518" stroke="white" stroke-width="1.43" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20 16.2461V28.8472" stroke="white" stroke-width="1.43" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23.9793 12.9302L20 16.2462L16.0208 12.9302" stroke="white" stroke-width="1.43" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<linearGradient id="paint0_linear_12734_6350" x1="0" y1="0.888672" x2="40" y2="40.8887" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FBDB4C"/>
+<stop offset="1" stop-color="#FBAE4C"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,0 +1,19 @@
+
+
+.perks-intro{color: var(--Text);}
+.perks-intro h1{letter-spacing: -1.12px; margin-bottom: 24px;}
+
+@media screen and (min-width: 1024px) {
+    .perks-intro-main{padding: 80px 0 56px;}
+    .perks-intro{max-width: 960px;}
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .perks-intro-main{padding: 40px 0 30px;}
+    .perks-intro h1{letter-spacing: -0.64px; font-size: 38px; line-height: 43px;}
+}
+@media screen and (max-width: 767px) and (min-width: 200px) {
+    .perks-intro-main{padding: 24px 0 32px;}
+    .perks-intro{font-size: 16px; line-height: 24px;}
+    .perks-intro h1{letter-spacing: -0.64px; font-size: 32px; line-height: 38.4px;}
+}

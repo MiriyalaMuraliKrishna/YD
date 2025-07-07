@@ -1,0 +1,42 @@
+
+.testimonial-list{background: var(--Blue-Gradient4); padding: 16px;}
+.testimonial-txt{padding: 32px; gap: 20px; align-items: flex-start;}
+.testimonial-icon{flex: 0 0 48px;}
+.testimonial-desc p:last-child{margin-bottom: 0;}
+.testimonial-desc p span{text-decoration-line: underline; text-decoration-style: solid; text-decoration-skip-ink: auto; text-decoration-color: var(--Red, #EC354D); text-decoration-thickness: 10%; text-underline-offset: auto; text-underline-position: from-font;}
+.testimonial-author span{color: var(--White);}
+.testimonial-author span:first-child{font-size: 18px; line-height: 27px; display: block; color: var(--Electric-Blue); font-weight: 700;}
+
+@media screen and (min-width: 1024px) {
+    .testimonal-main{gap: 80px; align-items: flex-start;}
+    .testimonial-list{flex: 1;}
+    .testimonial-list:nth-child(2n){margin-top: 47px;}
+    .testimonial-img{flex: 0 0 284px;}
+    .testimonial-txt{flex: 1;}
+    
+}
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+      .testimonal-main{gap: 40px;}
+    .testimonial-img, .testimonial-txt{flex: 1;}
+}
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .testimonal-main{gap: 64px; padding: 40px 0;}
+    .testimonial-img, .testimonial-txt{flex: 1;}
+    .testimonial-list:nth-child(2n + 1){margin-right: 40px;}
+    .testimonial-list:nth-child(2n){margin-left: 40px;}
+    .testimonial-txt{padding: 24px;}
+    .testimonial-desc{font-size: 16px; line-height: 24px;}
+    .testimonial-author span{font-size: 14px; line-height: 21px;}
+    .testimonial-author span:first-child{font-size: 16px; line-height: 24px;}
+
+}
+@media screen and (max-width: 767px) and (min-width: 200px) {
+    .testimonal-main{padding: 24px 0; gap: 24px;}
+    .testimonial-img{width: 100%;}
+    .testimonial-txt{padding: 0 15px; margin-top: -24px; width: 100%;}
+    .testimonial-desc{font-size: 16px; line-height: 24px;}
+    .testimonial-author{flex-direction: row; align-items: center;}
+    .testimonial-author span{flex: 1; font-size: 14px; line-height: 21px;}
+    .testimonial-author span:first-child{font-size: 16px; line-height: 24px;}
+    .testimonial-author span:not(:first-child){text-align: right;}
+}

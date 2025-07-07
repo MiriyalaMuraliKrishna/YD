@@ -1,0 +1,21 @@
+
+.perks-logo-slide{width: 192px; margin-right: 24px;}
+.perks-logo-inner{background: var(--White); box-shadow: 0px 0px 64px 0px rgba(0, 0, 0, 0.10) inset; padding: 24px; min-height: 128px;}
+.perks-logo-thumb img{max-height: 80px; object-fit: contain;}
+
+.perks-logo-slider .slick-list{overflow: inherit;}
+
+@media screen and (min-width: 1024px) {
+    .perks-logos-main{padding: 0 0 80px;}
+        
+}
+
+@media screen and (max-width: 1023px)  and (min-width: 768px) {
+    .perks-logos-main{padding: 0 0 40px;}
+}
+@media screen and (max-width: 767px)  and (min-width: 200px) {
+    .perks-logos-main{padding: 0 0 24px;}
+    .perks-logo-slide{width: 144px; margin-right: 16px;}
+    .perks-logo-inner{padding: 18px; min-height: 96px;}
+    .perks-logo-thumb img{max-height: 60px; object-fit: contain;}
+}

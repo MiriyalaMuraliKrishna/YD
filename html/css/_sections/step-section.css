@@ -1,0 +1,45 @@
+
+.step-lt{color: var(--Navy);}
+.step-lt h2{margin-bottom: 24px;}
+.step-list:first-child .step-image::before{height: calc(100% - 50%); bottom: 0; top: auto;}
+.step-list:last-child .step-image::before{height: calc(100% - 50%);}
+.step-image{flex: 0 0 80px;}
+.step-image::before{content: ""; position: absolute; width: 2px; height: 100%; top: 0; left: 50%; transform: translateX(-50%); background: var(--Yellow); z-index: -1;}
+.step-img-thumb{width: 80px; height: 80px; padding: 16px; background: rgb(217, 238, 247);}
+.step-section.Background-B .step-img-thumb{background: var(--White);}
+.step-img-thumb img{max-width: 48px; object-fit: contain;}
+.step-text{flex: 1; color: var(--Text); padding: 16px 0;}
+.step-text h2{color: var(--Navy); letter-spacing: -0.48px; margin-bottom: 8px;}
+
+@media screen and (min-width: 1024px) {
+    .step-main{padding: 80px 0; gap: 80px;}
+    .step-lt{flex: 0 0 400px;}
+    .step-rt{flex: 1;}
+    .step-list{gap: 56px;}
+    
+    
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .step-main{padding: 40px 0; gap: 40px;}
+    .step-lt, .step-rt{flex: 100%;}
+    .step-lt{font-size: 22px; line-height: 33px;}
+    .step-lt h2{font-size: 32px; line-height: 38.4px; letter-spacing: -0.64px;}
+    .step-list{gap: 40px;}
+    .step-text{font-size: 14px; line-height: 21px; }
+    .step-text h2{font-size: 20px; line-height: 24px; letter-spacing: -0.4px; }
+}
+@media screen and (max-width: 767px) and (min-width: 200px) {
+    .step-main{padding: 24px 0; gap: 24px;}
+    .step-lt, .step-rt{flex: 100%;}
+    .step-lt{font-size: 20px; line-height: 30px;}
+    .step-lt h2{font-size: 24px; line-height: 28.8px; letter-spacing: -0.48px;}
+    .step-list{gap: 32px;}
+    .step-image{flex: 0 0 64px; align-items: flex-start; padding-top: 8px;}
+    .step-img-thumb{width: 64px; height: 64px; padding: 13.5px 14px;}
+    .step-img-thumb img{max-width: 36px; object-fit: contain;}
+    .step-list:first-child .step-image::before{height: 100%; bottom: auto; top: 8px;}
+    .step-list:last-child .step-image::before{height: calc(100% - 95%);}
+    .step-text{font-size: 14px; line-height: 21px;}
+    .step-text h2{font-size: 18px; line-height: 21.6px; letter-spacing: -0.36px;}
+}

@@ -1,0 +1,93 @@
+
+
+.banner-overlay{background: linear-gradient(180deg, rgba(0, 95, 159, 0.75) 0%, var(--YD-Blue) 100%); z-index: 2;}
+.banner-text{color: var(--White);}
+.banner-text h1{margin-bottom: 24px;}
+
+.ai-helper-thumb{max-width: 160px; margin: 0 auto;}
+.ai-helper-text{text-align: center; color: var(--White);}
+.ai-helper-text h2{margin-bottom: 8px; letter-spacing: -0.48px;}
+.ai-helper-text h2 span{color: var(--Electric-Blue);}
+.ai-helper-signup{width: 100%;}
+.ai-helper-field-wrap input{border-radius: 20px; border: 3px solid rgba(28, 204, 243, 0.24); background: rgba(0, 0, 0, 0.50); width: 100%; padding: 19px 8px 19px 20px; outline: none; font-size: 18px; line-height: 27px; color: var(--White); font-style: italic;}
+body .ai-helper-signup .frm_forms .frm_form_fields .frm_form_field.field_submit{right: 11px; top: 11px; height: 49px; width: 49px; margin: 0; display: block; position: absolute;}
+body .ai-helper-signup .frm_forms .frm_form_fields .frm_form_field.field_submit button.frm_button_submit{background: var(--Blue-Gradient3); border-radius: 12px; padding: 10.5px; font-size: 0; line-height: normal;}
+body .ai-helper-signup .frm_forms .frm_form_fields .frm_form_field.field_submit button.frm_button_submit svg{width: 28px; height: 28px;}
+body .ai-helper-signup .frm_forms .frm_form_fields .frm_form_field input::placeholder{color: var(--White); font-family: var(--base-font); opacity: .4;}
+
+
+@media screen and (min-width: 1024px) {
+    .banner-main{padding: 184px 0 80px; gap: 80px;}
+    .banner-text{flex: 1; padding-top: 95px;}
+    .ai-helper{flex: 0 0 400px; padding: 32px;}
+    .ai-helper-inner{gap: 32px;}
+    
+    body.page-template-why-yd .banner-main, 
+    body.page-template-about-page .banner-main, 
+    body.page-template-careers-page .banner-main,
+    body.page-template-flexible-landing-page .banner-main{padding: 268px 0 80px; max-width: 800px;}
+    body.page-template-why-yd .banner-text, 
+    body.page-template-about-page .banner-text, 
+    body.page-template-careers-page .banner-text,
+    body.page-template-flexible-landing-page .banner-text{padding-top: 0;}
+
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+    .banner-text h1{font-size: 48px; line-height: 57.6px; letter-spacing: -0.96px;}
+    .ai-helper{flex: 0 0 350px;}
+
+}
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .banner-main{padding: 200px 0 40px; gap: 40px;}
+    .banner-text{font-size: 22px; line-height: 33px;}
+    .banner-text h1{margin-bottom: 20px; font-size: 40px; line-height: 48px;}
+    .banner-text hr.line-sm{margin: 0 0 20px 0;}
+
+    .ai-helper{gap: 24px 20px; padding: 24px 24px 21px;}
+    .ai-helper-inner{gap: 24px 20px;}
+    .ai-helper-thumb{max-width: 89px;}
+    .ai-helper-text{flex: 1; font-size: 16px; line-height: 24px; text-align: left;}
+    .ai-helper-text h2{margin-bottom: 8px; font-size: 20px; letter-spacing: -0.4px; line-height: 24px; }
+}
+@media screen and (max-width: 767px) and (min-width: 200px) {
+    .banner-section{margin-top: 80px; background: var(--YD-Blue);}
+    .banner-bg{position: relative;}
+    .banner-overlay{background: linear-gradient(180deg, rgba(0, 95, 159, 0.00) 0%, var(--YD-Blue) 100%);}
+    .banner-wrap{padding: 24px 0;}
+    
+    .banner-main{gap: 24px;}
+    .banner-text{color: var(--White); font-size: 16px; line-height: 24px; padding-top: 24px;}
+    .banner-text  span.optional-text{margin-bottom: 16px;}
+    .banner-text h1{margin-bottom: 16px; font-size: 2rem; line-height: 2.4rem; letter-spacing: -0.64px;}
+    .banner-text hr.line-sm{margin: 0 0 16px 0;}
+
+    .ai-helper{padding: 20px 20px 17px; margin-top: 8px;}
+    .ai-helper-inner{gap: 20px 16px;}
+    .ai-helper-thumb{max-width: 73px;}
+    .ai-helper-text{flex: 1; font-size: 16px; line-height: 24px; }
+    .ai-helper-text h2{margin-bottom: 2px; font-size: 18px; letter-spacing: -0.36px; line-height: 21.6px; }
+
+    .app-teaser{padding: 8px; gap: 10px;}
+    .app-teaser-img{flex: 0 0 64px;}
+    .app-teaser-text{flex: 1; padding-top: 6px;}
+    .app-teaser-text h2{font-size: 16px; line-height: 14px; letter-spacing: -0.24px; color: #090B0A; margin-bottom: 6px; }
+    .app-teaser-text span{color: #848489; font-size: 14px; line-height: 12px; display: block; font-weight: 700; }
+    .app-rating{padding-top: 8px; gap: 4px;}
+    .app-rating-star{width: fit-content;}
+    .app-rating-star span.checked{color: #F1A33B;}
+    .app-rating span{color: #848489; font-size: 11px; font-weight: 400; line-height: 12px; display: block;}
+
+    body.page-template-why-yd .banner-section .container,
+    body.page-template-about-page .banner-section .container,
+    body.page-template-careers-page .banner-section .container,
+    body.page-template-flexible-landing-page .banner-section .container{padding: 0;}
+
+    body.page-template-why-yd .banner-wrap,
+    body.page-template-about-page .banner-wrap,
+    body.page-template-careers-page .banner-wrap,
+    body.page-template-flexible-landing-page .banner-wrap{padding: 24px; background: var(--Blue-Gradient2);}
+
+    body.page-template-careers-page .banner-text,
+    body.page-template-flexible-landing-page .banner-text{padding-bottom: 24px;}
+}

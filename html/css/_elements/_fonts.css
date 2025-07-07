@@ -1,0 +1,5 @@
+:root{
+    --base-font: "Blackbird", sans-serif;
+    --heading-font: "Blackbird", sans-serif;
+}
+.base-font{font-family: var(--base-font);}

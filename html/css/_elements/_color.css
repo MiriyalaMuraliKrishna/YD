@@ -1,0 +1,26 @@
+:root {
+    --black: #000;
+    --black-5: rgb(0 0 0 / 5%);
+    --black-10: rgb(0 0 0 / 10%);
+    --White-40: rgb(255 255 255 / 40%);
+    --White-60: rgb(255 255 255 / 60%);
+    --White-90: rgb(255 255 255 / 90%);
+    --White-75: #F5F9FF;
+    --White: #ffffff;
+    --body-text: #707372;
+    --YD-Blue: #005F9F;
+    --Text: #4E555C;
+    --Red: #EC354D;
+    --Navy: #002F4F;
+    --Electric-Blue:#1CCCF3;
+    --Yellow: #FBDB4C;
+    --Background-B: rgba(217, 238, 247, 0.60);
+    --Elevated-Purple: #E5DFFF;
+
+    --Red-Gradient: linear-gradient(120deg, #EC367C 0%, #BA0A4A 100%);
+    --Blue-Gradient: linear-gradient(98deg, var(--YD-Blue) 0%, #002239 100%);
+    --Blue-Gradient2: linear-gradient(180deg, var(--YD-Blue) 0%, var(--Navy) 100%);
+    --Blue-Gradient3: linear-gradient(135deg, var(--Electric-Blue) 0%, var(--YD-Blue) 100%);
+    --Blue-Gradient4: linear-gradient(307deg, var(--Navy) 0%, var(--YD-Blue) 100%);
+    --Blue-Gradient5: linear-gradient(0deg, var(--Navy) 0%, var(--YD-Blue) 100%);
+}   

@@ -1,0 +1,26 @@
+
+.stats-lists{gap: 56px;}
+.stats-item{flex: 0 0 calc(33.333% - 38px); flex-grow: 1; padding-left: 26px; border-left: 1px solid var(--Yellow);}
+span.stats-num{display: block; font-size: 40px; line-height: 48px; font-weight: 700; letter-spacing: -0.8px;}
+span.stats-title{display: block; font-size: 24px; line-height: 28.8px; font-weight: 700; letter-spacing: -0.48px; margin-bottom: 8px;}
+
+
+@media screen and (min-width: 1024px) {
+    .stats-main{padding-bottom: 80PX;}
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .stats-main{padding: 40px 0; }
+    .stats-lists{gap: 40px;}
+    .stats-item{flex: 1; padding-left: 20px; font-size: 16px; line-height: 24px;}
+    span.stats-num{font-size: 32px; line-height: 38.4px; letter-spacing: -0.64px;}
+    span.stats-title{font-size: 20px; line-height: 24px; letter-spacing: -0.4px; margin-bottom: 8px;}
+}
+@media screen and (max-width: 767px) and (min-width: 200px) {
+    .stats-section{background: var(--Navy);}
+    .stats-main{padding: 24px 0; }
+    .stats-lists{gap: 32px;}
+    .stats-item{flex: 100%; padding-left: 18px; font-size: 16px; line-height: 24px;}
+    span.stats-num{display: inline-block; font-size: 20px; line-height: 24px; letter-spacing: -0.4px; margin-bottom: 8px;}
+    span.stats-title{display: inline-block; font-size: 20px; line-height: 24px; letter-spacing: -0.4px; margin: 0 0 8px 4px;}
+}

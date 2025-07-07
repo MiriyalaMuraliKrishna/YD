@@ -1,0 +1,55 @@
+
+.who-benefit-title, .who-benefit-slider{width: 100%;}
+.who-benefit-title h2{letter-spacing: -0.8px;}
+
+.who-benefit-text{padding: 16px; font-size: 14px; line-height: 21px; color: var(--Navy);}
+.who-benefit-text h2{letter-spacing: -0.64px; margin-bottom: 20px;}
+.who-benefit-text hr{margin-bottom: 20px;}
+.who-benefit-text ul{margin: 0 0 20px 26px;}
+.who-benefit-text ul > li{margin-bottom: 4px;}
+.who-benefit-text ul > li::before{width: 14px; height: 14px; left: -26px;}
+.who-benefit-text .button{width: 100%; text-align: center;}
+
+.who-benefit-slider .slick-list{overflow: inherit;}
+.who-benefit-slider .slick-arrow{position: absolute; top: 50%; transform: translateY(-50%); width: 72px; height: 72px; font-size: 32px; line-height: 100%;}
+
+
+.who-slick-progress{background-color: var(--Background-B); height: 16px; width: 100%; position: relative; padding: 4px; border-radius: 6px; }
+.who-slick-progress span{width: 0; border-radius: 4px; transition: width 0.5s ease; height: calc(100% - 8px); border-radius: 4px; background-color: var(--YD-Blue);}
+
+@media screen and (min-width: 1024px) {
+    .who-benefit-main{padding: 80px 0; gap: 40px;}
+    .who-benefit-slide{width: 600px; margin-right: 40px;}
+    .who-benefit-list{padding: 16px; gap: 24px;}
+    .who-benefit-image, .who-benefit-text{flex: 1;}
+    .who-benefit-slider .slick-arrow.slick-prev{left: -20px;}
+    .who-benefit-slider .slick-arrow.slick-next{right: -16px;}
+    
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .who-benefit-main{padding: 40px 0; gap: 32px;}
+    .who-benefit-title span.optional-text{margin-bottom: 20px;}
+    .who-benefit-title h2{font-size: 32px; line-height: 38.4px; letter-spacing: -0.64px;}
+    .who-benefit-slide{width: 600px; margin-right: 32px;}
+    .who-benefit-list{padding: 16px; gap: 24px;}
+    .who-benefit-image, .who-benefit-text{flex: 1;}
+    .who-benefit-text{font-size: 12px; line-height: 18px;}
+    .who-benefit-text h2{font-size: 24px; line-height: 28.8px; letter-spacing: -0.48px; }
+    .who-benefit-slider .slick-arrow.slick-prev{left: 0;}
+    .who-benefit-slider .slick-arrow.slick-next{right: 0;}
+}
+@media screen and (max-width: 767px) and (min-width: 200px) {
+    .who-benefit-main{padding: 24px 0; gap: 44px;}
+    .who-benefit-title span.optional-text{margin-bottom: 20px;}
+    .who-benefit-title h2{font-size: 24px; line-height: 28.8px; letter-spacing: -0.48px;}
+    .who-benefit-slide{margin-bottom: 65px;}
+    .who-benefit-list{padding: 20px; gap: 16px; width: 342px; margin: 0 30px 0 0;}
+    .who-benefit-image, .who-benefit-text{width: 100%; }
+    .who-benefit-text{padding: 0; font-size: 12px; line-height: 18px;}
+    .who-benefit-text h2{font-size: 20px; line-height: 24px; letter-spacing: -0.4px; }
+    .who-benefit-slider{padding-bottom: 20px;}
+    .who-benefit-slider .slick-arrow{border-radius: 16px; width: 48px; height: 48px; font-size: 21.333px; top: auto; transform: none; bottom: 0;}
+    .who-benefit-slider ul.slick-dots li{width: 23.6px; height: 8px; border-radius: 6px; background-color: var(--Electric-Blue); cursor: pointer; opacity: 0.25;}
+    .who-benefit-slider ul.slick-dots li.slick-active{background-color: var(--YD-Blue); opacity: 1;}
+}

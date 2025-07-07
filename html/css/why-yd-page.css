@@ -1,0 +1,14 @@
+@import url("./_sections/banner-section.css");
+@import url("./_sections/features-carousel-section.css");
+@import url("./_sections/features-grid-section.css");
+@import url("./_sections/resources-section.css");
+@import url("./_sections/ai-followup-section.css");
+@import url("./_sections/quick-links-section.css");
+@import url("./_sections/repeater-video-section.css");
+@import url("./_sections/yd-perks-section.css");
+@import url("./_sections/who-benefit-section.css");
+
+
+@media screen and (max-width: 767px) and (min-width: 200px) {
+    hr.divider-line{margin: 12px auto; width: calc(100% - 112px);}
+}

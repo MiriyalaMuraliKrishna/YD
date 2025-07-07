@@ -1,0 +1,38 @@
+
+.yd-perks-intro-title h2{margin-bottom: 24px; letter-spacing: -0.8px;}
+.yd-perks-intro-desc{color: var(--Navy);}
+.yd-perks-logo{background: var(--White); box-shadow: 0px 0px 64px 0px rgba(0, 0, 0, 0.10) inset; padding: 24px;}
+.yd-perks-thumb{width: fit-content; max-width: 145px; }
+
+@media screen and (min-width: 1024px) {
+    .yd-perks-main{padding: 80px 0; gap: 56px;}
+    .yd-perks-intro-title{flex: 0 0 400px;}
+    .yd-perks-intro-desc{flex: 1;}
+    .yd-perks-logos{gap: 24px;}
+    .yd-perks-logo{flex: 0 0 calc(16.666% - 20px); min-height: 128px;}
+    
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1024px) {
+    .yd-perks-intro-title{flex: 0 0 350px; }
+}
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .yd-perks-main{padding: 40px 0; gap: 40px;}
+     .yd-perks-intro, .yd-perks-logos{width: 100%;}
+     .yd-perks-intro{gap: 20px; justify-content: flex-start;}
+     .yd-perks-intro-title h2{margin-bottom: 0;}
+     .yd-perks-intro-desc{font-size: 22px; line-height: 33px; }
+     .yd-perks-logos{gap: 20px;}
+    .yd-perks-logo{flex: 0 0 calc(33.333% - 14px);}
+    .yd-perks-thumb img{max-width: 182px; max-height: 105px; }
+}
+@media screen and (max-width: 767px) and (min-width: 200px) {
+    .yd-perks-main{padding: 24px 0; gap: 32px;}
+    .yd-perks-intro, .yd-perks-logos{width: 100%;}
+    .yd-perks-intro{gap: 16px; justify-content: flex-start;}
+    .yd-perks-intro-title h2{margin-bottom: 0; letter-spacing: -0.64px;}
+    .yd-perks-intro-desc{font-size: 20px; line-height: 30px; }
+    .yd-perks-logos{gap: 16px;}
+    .yd-perks-logo{flex: 0 0 calc(33.333% - 11px); padding: 12px;}
+    .yd-perks-thumb img{max-width: 80px; max-height: 44px; }
+}

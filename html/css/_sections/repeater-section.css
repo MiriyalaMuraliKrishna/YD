@@ -1,0 +1,30 @@
+
+.repeater-reverse{flex-direction: row-reverse;}
+.repeater-text{color: var(--Navy);}
+.repeater-text h2{margin-bottom: 24px;}
+
+
+@media screen and (min-width: 1024px) {
+    .repeater-main{padding: 80px 0; gap: 56px;}
+    .repeater-list{gap: 80px; padding: 0 56px;}
+    body.page-template-about-page .repeater-list{padding: 0;}
+    .repeater-image, .repeater-text{flex: 1;}
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .repeater-main{padding: 40px 0; gap: 40px;}
+    .repeater-list{gap: 40px; padding: 0 40px;}
+    body.page-template-about-page .repeater-list{padding: 0;}
+    .repeater-image, .repeater-text{width: 100%;}
+    body.home .repeater-image, .repeater-text{flex: 1;}
+    .repeater-text{font-size: 16px; line-height: 24px;}
+    .repeater-text h2{font-size: 32px; line-height: 38.4px; letter-spacing: -0.64px;}
+}
+@media screen and (max-width: 767px) and (min-width: 200px) {
+    .repeater-main{padding: 24px 0; gap: 32px;}
+    .repeater-list{gap: 24px;}
+    body.page-template-about-page .repeater-list{padding: 0 32px;}
+    .repeater-image, .repeater-text{width: 100%;}
+    .repeater-text{font-size: 16px; line-height: 24px; }
+    .repeater-text h2{font-size: 24px; line-height: 28.8px; letter-spacing: -0.48px;}
+}

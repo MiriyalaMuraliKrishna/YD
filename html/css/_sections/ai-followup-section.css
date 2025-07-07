@@ -1,0 +1,29 @@
+
+.ai-followup-overlay{background: var(--White); height: 164px;}
+.ai-followup-text span.optional-text{margin-bottom: 20px;}
+.ai-followup-text h2{letter-spacing: -0.64px;}
+
+.ai-followup{width: 100%;}
+.ai-followup-field-wrap input{border-radius: 20px; border: 3px solid rgba(28, 204, 243, 0.24); background: rgba(0, 0, 0, 0.50); width: 100%; padding: 19px 90px 19px 20px; outline: none; font-size: 18px; line-height: 27px; color: var(--White);}
+body .ai-followup .frm_forms .frm_form_fields .frm_form_field.field_submit{right: 11px; top: 11px; height: 48px; width: 68px; margin: 0; display: block; position: absolute;}
+body .ai-followup .frm_forms .frm_form_fields .frm_form_field.field_submit button.frm_button_submit{background: var(--Blue-Gradient3); border-radius: 12px; padding: 15px; font-size: 18px; line-height: 100%; color: var(--Navy);}
+body .ai-followup .frm_forms .frm_form_fields .frm_form_field input::placeholder{color: var(--White); font-family: var(--base-font);}
+
+@media screen and (min-width: 1024px) {
+    .ai-followup-main{padding: 40px 56px; gap: 40px;}
+    .ai-followup-image{flex: 0 0 216px;}
+    .ai-followup-text{flex: 1;}
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .ai-followup-main{padding: 32px 40px; gap: 32px;}
+    .ai-followup-image{flex: 0 0 152px;}
+    .ai-followup-text{flex: 1;}
+    .ai-followup-text h2{font-size: 24px; line-height: 28.8px; letter-spacing: -0.48px;}
+}
+@media screen and (max-width: 767px) and (min-width: 200px) {
+    .ai-followup-main{padding: 32px 32px 29px; gap: 24px;}
+    .ai-followup-image{flex: 0 0 152px;}
+    .ai-followup-text{flex: 1; text-align: center;}
+    .ai-followup-text h2{font-size: 24px; line-height: 28.8px; letter-spacing: -0.48px; margin-bottom: 24px;}
+}

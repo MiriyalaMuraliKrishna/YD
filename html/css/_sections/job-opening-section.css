@@ -1,0 +1,45 @@
+
+.job-opening-lt{color: var(--Navy);}
+.job-opening-lt h2{margin-bottom: 24px;}
+.job-opening-item  h2{margin-bottom: 4px;}
+.job-location{gap: 8px;}
+.job-location span.fa-location-dot{flex: 0 0 11px; color: var(--Red);}
+.job-location span:last-child{font-size: 16px; line-height: 24px; color: var(--Text); flex: 1;}
+ul.job-details{gap: 8px; margin-top: 16px;}
+ul.job-details > li{padding: 8px; color: var(--YD-Blue); font-weight: 700;}
+ul.job-details > li span{font-weight: 400;}
+
+
+@media screen and (min-width: 1024px) {
+    .job-opening-main{padding: 80px 0; gap: 80px;}
+    .job-opening-lt{flex: 0 0 400px;}
+    .job-opening-rt{flex: 1;}
+    .job-opening-lists{gap: 24px;}
+    .job-opening-item{flex: 0 0 calc(50% - 12px); padding: 32px;}
+    
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1024px){
+    .job-opening-main{gap: 64px;}
+    .job-opening-lt{flex: 0 0 350px;}
+}
+@media screen and (max-width: 1023px) and (min-width: 768px){
+    .job-opening-main{padding: 40px 0; gap: 40px;}
+    .job-opening-lt, .job-opening-rt{flex: 100%;}
+    .job-opening-lt{font-size: 22px; line-height: 33px;}
+    .job-opening-lt h2{font-size: 32px; line-height: 38.4px; letter-spacing: -0.64px;}
+    .job-opening-lists{gap: 20px;}
+    .job-opening-item{flex: 0 0 calc(50% - 10px); padding: 24px;}
+    .job-opening-item h2{font-size: 20px; line-height: 24px; letter-spacing: -0.4px; margin-bottom: 4px;}
+    .job-location span:last-child{font-size: 14px; line-height: 21px;}
+}
+@media screen and (max-width: 767px) and (min-width: 200px){
+    .job-opening-main{padding: 24px 0; gap: 24px;}
+    .job-opening-lt, .job-opening-rt{flex: 100%;}
+    .job-opening-lt{font-size: 20px; line-height: 30px;}
+    .job-opening-lt h2{font-size: 24px; line-height: 28.8px; letter-spacing: -0.48px;}
+    .job-opening-lists{gap: 16px;}
+    .job-opening-item{flex: 100%; padding: 20px;}
+    .job-opening-item h2{font-size: 18px; line-height: 21.6px; letter-spacing: -0.36px;}
+    .job-location span:last-child{font-size: 14px; line-height: 21px;}
+}

@@ -1,0 +1,30 @@
+
+.faq-lt{color: var(--Navy);}
+.faq-question-thumb{max-width: 179px; margin-bottom: 40px;}
+.faq-lt h2{letter-spacing: -0.8px; margin-bottom: 24px; }
+
+.faq-rt .accordion-main{padding: 0;}
+
+
+@media screen and (min-width: 1024px) {
+    .faq-main{padding: 80px 0; gap: 80px;}
+    .faq-lt{flex: 0 0 400px;}
+    .faq-rt{flex: 1;}
+    .job-opening-lists{gap: 24px;}
+    
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .faq-main{padding: 40px 0; gap: 40px;}
+    .faq-lt, .faq-rt{flex: 100%;}
+    .faq-question-thumb{margin-bottom: 32px;}
+    .faq-lt{font-size: 22px; line-height: 33px;}
+    .faq-lt h2{font-size: 32px; line-height: 38.4px; letter-spacing: -0.64px; }
+}
+@media screen and (max-width: 767px) and (min-width: 200px) {
+    .faq-main{padding: 24px 0; gap: 24px;}
+    .faq-lt, .faq-rt{flex: 100%;}
+    .faq-question-thumb{margin-bottom: 32px;}
+    .faq-lt{font-size: 20px; line-height: 30px;}
+    .faq-lt h2{font-size: 24px; line-height: 28.8px; letter-spacing: -0.48px; }
+}

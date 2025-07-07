@@ -1,0 +1,12 @@
+
+
+.top-shape-section{margin-top: 128px; background: var(--Navy);}
+.top-shape{background: var(--White); border-radius: 32px 32px 0px 0px; height: 32px;}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .top-shape-section{margin-top: 96px;}
+}
+
+@media screen and (max-width: 767px) and (min-width: 200px) {
+    .top-shape-section{margin-top: 80px;}
+}

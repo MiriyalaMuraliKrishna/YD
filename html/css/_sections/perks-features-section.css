@@ -1,0 +1,44 @@
+
+.perks-features-list{padding: 32px;}
+.perks-image{width: 100%; padding: 24px; margin-bottom: 24px; min-height: 224px;}
+.perks-img-thumb{height: 100%; }
+.perks-image img{max-width: 288px; max-height: 176px; object-fit: contain;}
+.perks-text{line-height: 21px; color: var(--Text);}
+.perks-offer-main{margin-bottom: 18px;}
+.perks-offer-main > span{color: var(--Red); font-size: 14px; line-height: 21px; font-weight: 700; display: block;}
+.perks-offer{gap: 5px;}
+.perks-offer > span:first-child{color: var(--YD-Blue); font-size: 16px;}
+.perks-offer > span{color: var(--Navy); font-size: 16px; line-height: 24px; font-weight: 700;}
+.perks-text .button{width: 100%;}
+
+@media screen and (min-width: 1024px) {
+    .perks-features-main{gap: 40px; padding: 0 0 80px;}
+    .perks-features-list{flex: 0 0 calc(33.333% - 27px);}
+    
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1024px) {
+    .perks-features-main{gap: 20px;}
+    .perks-features-list{flex: 0 0 calc(33.333% - 14px);}
+    .perks-features-list{padding: 25px;}
+
+}
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .perks-features-main{gap: 20px; padding: 0 0 40px;}
+    .perks-features-list{flex: 0 0 calc(50% - 10px);}
+    .perks-features-list{padding: 20px;}
+    .perks-image{display: flex; justify-content: center;}
+
+}
+@media screen and (max-width: 767px) and (min-width: 200px) {
+    .perks-features-main{gap: 40px; padding: 0 0 24px;}
+    .perks-features-list{flex: 100%;}
+    .perks-features-list{padding: 20px;}
+    .perks-image{margin-bottom: 16px; min-height: 201px; display: flex; justify-content: center;}
+    .perks-image img{max-width: 254px; max-height: 153px;}
+    .perks-text{font-size: 12px; line-height: 18px;}
+    .perks-text h2{font-size: 18px; line-height: 21.6px; letter-spacing: -0.36px;}
+    .perks-offer-main{margin-bottom: 20px;}
+    .perks-offer-main > span{font-size: 12px; line-height: 18px;}
+    .perks-offer > span{font-size: 14px; line-height: 21px;}
+}
