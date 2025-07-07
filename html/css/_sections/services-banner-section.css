@@ -31,6 +31,9 @@ body .ai-helper-signup .frm_forms .frm_form_fields .frm_form_field input::placeh
 .services-icon-desc{margin-bottom: 24px;}
 
 @media screen and (min-width: 1024px) {
+    .services-banner-section{z-index: 0; background: linear-gradient(0deg, var(--Navy) 0%, var(--YD-Blue) 100%); }
+    .services-banner-bg{max-height: 960px; position: fixed;}
+    .remove-sticky-image .services-banner-bg{opacity: 0;}
     .sevices-banner-main{padding: 208px 0 105px; gap: 80px;}
     .services-banner-lt, .services-banner-rt{flex: 1;}
     .services-banner-text{margin-bottom: 40px;}
