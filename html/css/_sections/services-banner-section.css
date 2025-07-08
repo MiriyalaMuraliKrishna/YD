@@ -1,7 +1,7 @@
 
 
 
-.services-banner-overlay{background: linear-gradient(180deg, rgba(0, 95, 159, 0.75) 0%, #005F9F 100%);}
+.services-banner-overlay{ z-index: 0; background: linear-gradient(180deg, rgba(0, 95, 159, 0.75) 0%, #005F9F 100%);}
 .services-banner-text, .ai-helper{flex: 100%;}
 .services-banner-text h1{margin-bottom: 32px; letter-spacing: -1.12px;}
 .services-banner-text hr{margin: 0 0 32px 0;}
@@ -30,9 +30,11 @@ body .ai-helper-signup .frm_forms .frm_form_fields .frm_form_field input::placeh
 .services-icon-wrap h2{margin-bottom: 0; flex: 1;}
 .services-icon-desc{margin-bottom: 24px;}
 
+.transition{transition: all 0.5s ease;}
+
 @media screen and (min-width: 1024px) {
     .services-banner-section{z-index: 0; background: linear-gradient(0deg, var(--Navy) 0%, var(--YD-Blue) 100%); }
-    .services-banner-bg{max-height: 960px; position: fixed;}
+    .services-banner-bg{max-height: 960px; position: fixed; z-index: -2;}
     .remove-sticky-image .services-banner-bg{opacity: 0;}
     .sevices-banner-main{padding: 208px 0 105px; gap: 80px;}
     .services-banner-lt, .services-banner-rt{flex: 1;}
