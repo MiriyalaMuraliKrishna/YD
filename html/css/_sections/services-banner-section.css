@@ -8,7 +8,7 @@
 
 .ai-helper-thumb{max-width: 104px;}
 .ai-helper-thumb img{mix-blend-mode: difference;}
-.ai-helper-shadow{box-shadow: 0px 0px 48px 0px rgba(2, 107, 182, 0.50);}
+.ai-helper-shadow{ width: 148px; height: 148px; top: 50%; left: 50%; transform: translate(-50%,-50%); background: radial-gradient(50% 50% at 50% 50%,rgba(2, 107, 182, 0.50) 0,rgba(26,209,177,0) 100%); }
 .ai-helper-text{text-align: left; color: var(--White); flex: 1;}
 .ai-helper-text h2{margin-bottom: 8px; letter-spacing: -0.48px;}
 .ai-helper-text h2 span{color: var(--Electric-Blue);}
@@ -35,7 +35,7 @@ body .ai-helper-signup .frm_forms .frm_form_fields .frm_form_field input::placeh
 @media screen and (min-width: 1024px) {
     .services-banner-section{z-index: 0; background: linear-gradient(0deg, var(--Navy) 0%, var(--YD-Blue) 100%); }
     .services-banner-bg{max-height: 960px; position: fixed; z-index: -2;}
-    .remove-sticky-image .services-banner-bg{opacity: 0;}
+    .remove-sticky-image .services-banner-bg{opacity: 0; visibility: hidden;}
     .sevices-banner-main{padding: 208px 0 105px; gap: 80px;}
     .services-banner-lt, .services-banner-rt{flex: 1;}
     .services-banner-text{margin-bottom: 40px;}

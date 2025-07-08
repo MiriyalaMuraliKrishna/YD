@@ -37,7 +37,7 @@ sup {bottom: 1ex;}
 sub {top: 0;}
 dl{margin-bottom: 24px; font-size: 1rem; line-height: 1.75rem; font-weight: 600;}
 dl:last-child{margin-bottom: 0;}
-dl dt::before{width: 29px; height: 1px; margin-right: 11px; background-color: var(--Foreground); content: ""; display: inline-block; vertical-align: middle;}
+dl dt::before{width: 29px; height: 1px; margin-right: 11px; background-color: var(--YD-Blue); content: ""; display: inline-block; vertical-align: middle;}
 blockquote dl dt::before{background-color: var(--White);}
 dd {margin-bottom: 24px;}
 ul {list-style: none; margin: 0 0 26px 32px;}
@@ -48,7 +48,7 @@ ul.no-disc > li::before{display: none;}
 li > ul {margin: 25px 0 26px 25px;}
 ol {counter-reset: section; list-style: none; margin: 0 0 28px 8px;}
 ol > li {counter-increment: li; position: relative; margin-bottom: 8px;}
-ol > li:before{color: var(--Foreground); counter-increment: section; content: counter(section, decimal) "."; top: 0px; left: 0; margin-right: 4px; position: relative; font-size: 1.125rem; line-height: 1.688rem;}
+ol > li:before{color: var(--YD-Blue); counter-increment: section; content: counter(section, decimal) "."; top: 0px; left: 0; margin-right: 4px; position: relative; font-size: 1.125rem; line-height: 1.688rem;}
 li > ol {margin: 25px 0 26px 25px;}
 ul[style='list-style-type: circle;']{list-style: none !important;}
 ol[style='list-style-type: upper-roman;']{margin-left: 22px;}
@@ -74,7 +74,7 @@ td:first-child{border-radius: 0 0 0 8px}
 td:last-child{border-radius: 0 0 8px 0;}
 
 caption, td, th{text-align: left;}
-del {color: var(--Foreground);}
+del {color: var(--YD-Blue);}
 hr{ margin: 0 0 32px; height: 4px; width: 96px; display: block; border: none; border-radius: 2px; background: var(--White);}
 hr.line{margin: 0; flex: 1; width: 100%; height: 2px; background-color: var(--White);}
 hr.line-sm{margin: 0 0 24px 0; flex: 1; width: 80px; height: 4px; background-color: var(--White);}
@@ -82,8 +82,8 @@ hr.line-sm.line-red{background-color: var(--Red);}
 hr.line-sm.line-yellow{background-color: var(--Yellow);}
 hr.line-vertical{height: 100%; width: 1px; border-radius: 1px; margin: 0 56px; background: var(--Yellow); }
 hr.divider-line{margin: 12px 0; width: 100%; height: 1px; background: var(--Elevated-Purple);}
-::selection {background-color: var(--Foreground); color: var(--White);}
-::-moz-selection {background-color: var(--Foreground); color: var(--White);}
+::selection {background-color: var(--YD-Blue); color: var(--White);}
+::-moz-selection {background-color: var(--YD-Blue); color: var(--White);}
 
 
 
@@ -158,7 +158,7 @@ img.aligncenter{margin: 25px auto; clear: both;}
 
 
 /*-- custom css starts here --*/
-body{margin: 0; font-size: 1.125rem; line-height: 1.688rem; font-weight: 400; font-family: var(--base-font); position: relative; color: var(--Foreground); background-color: transparent; overflow-x: hidden;}
+body{margin: 0; font-size: 1.125rem; line-height: 1.688rem; font-weight: 400; font-family: var(--base-font); position: relative; color: var(--YD-Blue); background-color: transparent; overflow-x: hidden;}
 .d-block{display: block;}
 span.optional-text{margin-bottom: 24px; font-size: 1rem; line-height: 1rem; font-weight: 800; letter-spacing: 2.4px; text-transform: uppercase; color: var(--Yellow); display: block;}
 span.optional-text.blue{color: var(--Blue);-webkit-text-fill-color: var(--Blue); opacity: 0.6; background: none;}
@@ -269,7 +269,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .inverted ul > li > a{color: var(--White);}
 .inverted ul > li > a:hover{color: var(--Orange);}
 
-.dark-text{color: var(--Foreground);}
+.dark-text{color: var(--YD-Blue);}
 .dark-text h1, .dark-text h2, .dark-text h3, .dark-text h4, .dark-text h5, .dark-text h6{color: var(--Navy);}
 .dark-text .h1, .dark-text .h2, .dark-text .h3, .dark-text .h4, .dark-text .h5, .dark-text .h6{color: var(--Navy);}
 .dark-text h1 a, .dark-text h2 a, .dark-text h3 a, .dark-text h4 a{color: var(--Navy);}

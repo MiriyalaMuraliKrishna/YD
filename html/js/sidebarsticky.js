@@ -1,4 +1,5 @@
 (() => {
+  // window.onload = function () {
   const __h = jQuery("header").height();
   const __eles = document.querySelectorAll(".sticky-widget");
   const targetele = document.querySelector(".services-banner-section");
@@ -26,4 +27,5 @@
   if (targetele) {
     __observer.observe(targetele);
   }
+  // };
 })();
