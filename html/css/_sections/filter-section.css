@@ -2,11 +2,11 @@
 .filter-search{gap: 20px;}
 .filter-search-form{flex: 1;}
 body .filter-search-form .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 0;}
-body .filter-search-form .frm_forms .frm_form_fields .frm_form_field input{font-size: 18px; line-height: 27px; border-radius: 12px; border: 3px solid rgba(28, 204, 243, 0.25); background: var(--Background-B); padding: 8px 20px 8px 64px; height: 64px;}
+body .filter-search-form .frm_forms .frm_form_fields .frm_form_field input{font-size: 18px; line-height: 27px; border-radius: 12px; border: 3px solid rgba(28, 204, 243, 0.25); background: var(--Background-B); padding: 8px 20px 8px 64px; height: 64px; text-overflow: ellipsis;}
 body .filter-search-form .frm_forms .frm_form_fields .frm_form_field input:not([type="file"], [type="checkbox"]):focus{ background: var(--Background-B); box-shadow: none; border-color: var(--Electric-Blue); color: var(--Navy); opacity: 1; }
 body .filter-search-form .frm_forms .frm_form_fields .frm_form_field.filter-search-icon::before{left: 20px; top: 50%; transform: translateY(-50%); font-size: 1.5rem; line-height: 1.5rem; font-weight: 400; color: var(--YD-Blue); content: "\f002"; font-family: "Font Awesome 6 Sharp"; position: absolute; }
 .filter-search-btn{width: fit-content;}
-.filter-search-btn .button{height: 100%; display: flex; align-items: center;}
+.filter-search-btn .button{height: 100%;}
 
 ul.filter-category{gap: 8px;}
 .filter-category-item{padding: 8px; background: var(--Background-B); font-size: 14px; line-height: 100%; font-weight: 700; color: var(--YD-Blue); display: inline-block;}
@@ -14,4 +14,17 @@ ul.filter-category{gap: 8px;}
 
 @media screen and (min-width: 1024px) {
     .filter-main{gap: 40px;}
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .filter-main{gap: 30px;}
+}
+@media screen and (max-width: 767px) and (min-width: 200px) {
+    .filter-search{margin-bottom: 20px;}
+    body .filter-search-form .frm_forms .frm_form_fields .frm_form_field input{font-size: 16px; line-height: 24px;}
+    .filter-search-btn{width: auto; flex: 0 0 64px;}
+    ul.filter-category{max-height: 107px; overflow: hidden; transition: max-height 0.5s ease; margin-bottom: 8px;}
+    ul.filter-category.expanded{max-height: 100%; transition: var(--b-transition);}
+    span.filter-category-btn{font-size: 16px; line-height: 16px; font-weight: 700; color: var(--YD-Blue); gap: 8px; cursor: pointer;}
+    span.filter-category-btn span.fa-light{font-size: 18px; line-height: 18px; font-weight: 400; color: var(--Red);}
 }

@@ -1,0 +1,32 @@
+
+.video-carousel-slide{width: 296px; margin-right: 40px;}
+.video-carousel-list{gap: 12px;}
+.video-timing{background: rgba(0, 0, 0, 0.50); backdrop-filter: blur(2px); padding: 6px 8px; gap: 8px; bottom: 12px; right: 12px; width: fit-content;}
+.video-timing span{color: var(--White); font-size: 14px; font-weight: 700; line-height: 100%;}
+.video-timing span.fa-video{font-weight: 400;}
+.video-carousel-text{padding: 0 16px; color: var(--YD-Blue);}
+.video-carousel-text a{color: var(--YD-Blue);}
+.video-carousel-text a:hover{color: var(--Red);}
+
+.video-carousel-slider .slick-list{overflow: inherit;}
+
+@media screen and (min-width: 1024px) {
+    .video-carousel-main{padding: 80px 0 0;}
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .video-carousel-main{padding: 40px 0 0;}
+
+}
+@media screen and (max-width: 767px) and (min-width: 200px) {
+    .video-carousel-main{padding: 24px 0 0;}
+    .video-carousel-slide{width: 100%; margin: 0 0 16px 0;}
+    .video-carousel-slide:last-child{margin: 0;}
+    .video-carousel-list{gap: 4px; align-items: center;}
+    .video-carousel-image{flex: 1; min-width: 169px;}
+    .video-carousel-text{flex: 1; font-size: 12px; line-height: 18px;}
+}
+
+@media screen and (max-width: 389px) and (min-width: 200px) {
+    .video-carousel-image{min-width: auto;}
+}
