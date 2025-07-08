@@ -10,7 +10,7 @@
 
   const callback = (entries) => {
     const [entry] = entries;
-    console.log(entry.isIntersecting);
+
     if (!entry.isIntersecting && entry.boundingClientRect.top < 0) {
       targetele.classList.add("remove-sticky-image");
     } else {
