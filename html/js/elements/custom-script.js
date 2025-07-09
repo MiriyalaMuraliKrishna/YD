@@ -71,4 +71,20 @@ jQuery(document).ready(function () {
       jQuery(".yd-difference-dropdown").removeClass("open");
     });
   }
+
+  // filter-category btn mobile
+
+    jQuery('.filter-category-btn').click(function() {
+      jQuery('ul.filter-category').toggleClass('expanded');
+
+      // Change button text based on state
+      if ($('ul.filter-category').hasClass('expanded')) {
+        $(this).html('Less topics <span class="fa-light fa-chevron-up"></span>');
+      } else {
+        $(this).html('More topics <span class="fa-light fa-chevron-down"></span>');
+      }
+    });
+
+  // filter-category btn mobile
+
 });

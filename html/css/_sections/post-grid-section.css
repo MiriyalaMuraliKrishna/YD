@@ -1,0 +1,36 @@
+
+
+
+.post-grid-text{padding: 16px; gap: 8px; color: var(--Navy); font-weight: 700;}
+ul.post-date{width: 100%;}
+ul.post-date li{gap: 8px;}
+ul.post-date li span{font-size: 14px; line-height: 21px; font-weight: 700; color: var(--YD-Blue);}
+ul.post-date li span.fa-newspaper{font-size: 14px; line-height: 14px; font-weight: 400;}
+.post-grid-btn{gap: 8px;}
+.post-grid-btn .button{width: fit-content;}
+
+
+@media screen and (min-width: 1024px) {
+    .post-grid-main{padding: 56px 0 80px; gap: 40px;}
+    .post-grid-list{flex: 0 0 calc(25% - 30px);}
+    .post-grid-image{min-height: 256px;}
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1024px){
+    .post-grid-main{gap: 30px;}
+    .post-grid-list{flex: 0 0 calc(25% - 23px); }
+    .post-grid-image{min-height: auto;}
+
+}
+@media screen and (max-width: 1023px) and (min-width: 768px){
+    .post-grid-main{padding: 40px 0; gap: 20px;}
+    .post-grid-list{flex: 0 0 calc(50% - 10px); width: auto;}
+    .post-grid-image, .post-grid-text{flex: 100%;}
+}
+@media screen and (max-width: 767px) and (min-width: 200px){
+    .post-grid-main{padding: 32px 0 24px; gap: 32px;}
+    .post-grid-list{width: 100%;}
+    .post-grid-image, .post-grid-text{flex: 100%;}
+    .post-grid-text{font-size: 14px; line-height: 21px;}
+    ul.post-date li span{font-size: 12px; line-height: 18px;}
+}

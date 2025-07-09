@@ -3,8 +3,9 @@
 .ai-followup-text span.optional-text{margin-bottom: 20px;}
 .ai-followup-text h2{letter-spacing: -0.64px;}
 
-.ai-followup{width: 100%;}
-.ai-followup-field-wrap input{border-radius: 20px; border: 3px solid rgba(28, 204, 243, 0.24); background: rgba(0, 0, 0, 0.50); width: 100%; padding: 19px 90px 19px 20px; outline: none; font-size: 18px; line-height: 27px; color: var(--White);}
+body .ai-followup{width: 100%;}
+body .ai-followup .frm_forms .ai-followup-field-wrap input{border-radius: 20px; border: 3px solid rgba(28, 204, 243, 0.24); background: rgba(0, 0, 0, 0.50); width: 100%; padding: 19px 90px 19px 20px; outline: none; font-size: 18px; line-height: 27px; font-weight: 400; color: var(--White);}
+body .ai-followup .frm_forms .frm_form_fields .frm_form_field input:not([type="file"], [type="checkbox"]):focus{ background: rgba(0, 0, 0, 0.50); box-shadow: none; border-color: rgba(28, 204, 243, 0.24); color: var(--White); opacity: 1; }
 body .ai-followup .frm_forms .frm_form_fields .frm_form_field.field_submit{right: 11px; top: 11px; height: 48px; width: 68px; margin: 0; display: block; position: absolute;}
 body .ai-followup .frm_forms .frm_form_fields .frm_form_field.field_submit button.frm_button_submit{background: var(--Blue-Gradient3); border-radius: 12px; padding: 15px; font-size: 18px; line-height: 100%; color: var(--Navy); transition: var(--b-transition);}
 body .ai-followup .frm_forms .frm_form_fields .frm_form_field.field_submit button.frm_button_submit:hover{background: var(--Red-Gradient); color: var(--White);}
