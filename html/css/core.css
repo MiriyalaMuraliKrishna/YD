@@ -12,11 +12,51 @@
 @import url('./_elements/_slick.css');
 
 /*-- sections --*/
+@import url('./_sections/accordion-section.css');
+@import url('./_sections/ai-followup-section.css');
+@import url('./_sections/banner-section.css');
+@import url('./_sections/contact-banner-section.css');
+@import url('./_sections/courses-accordion-section.css');
+@import url('./_sections/faq-section.css');
+@import url('./_sections/featured-post-section.css');
+@import url('./_sections/features-carousel-section.css');
+@import url('./_sections/features-grid-section.css');
+@import url('./_sections/filter-section.css');
+@import url('./_sections/form-section.css');
+@import url('./_sections/job-opening-section.css');
+@import url('./_sections/more-contact-section.css');
+@import url('./_sections/news-section.css');
+@import url('./_sections/other-services-section.css');
+@import url('./_sections/perks-features-section.css');
+@import url('./_sections/perks-intro-section.css');
+@import url('./_sections/perks-logos-section.css');
+@import url('./_sections/post-grid-section.css');
+@import url('./_sections/quick-links-section.css');
+@import url('./_sections/repeater-section.css');
+@import url('./_sections/repeater-video-section.css');
+@import url('./_sections/resources-section.css');
+@import url('./_sections/services-banner-section.css');
+@import url('./_sections/stats-section.css');
+@import url('./_sections/step-section.css');
+@import url('./_sections/testimonial-carousel-section.css');
+@import url('./_sections/testimonial-section.css');
+@import url('./_sections/top-shape-section.css');
+@import url('./_sections/video-carousel-section.css');
+@import url('./_sections/who-benefit-section.css');
+@import url('./_sections/yd-difference-section.css');
+@import url('./_sections/yd-perks-section.css');
 
 /*-- pages --*/
 @import url('./_pages/about-page.css');
 @import url('./_pages/careers-page.css');
+@import url('./_pages/contact-page.css');
+@import url('./_pages/flexible-landing-page.css');
+@import url('./_pages/home-page.css');
+@import url('./_pages/resources-page.css');
+@import url('./_pages/resources-post-default.css');
 @import url('./_pages/services-page.css');
+@import url('./_pages/why-yd-page.css');
+@import url('./_pages/yd-perks-page.css');
 
 
 
