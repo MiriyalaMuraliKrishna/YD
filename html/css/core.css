@@ -10,6 +10,7 @@
 @import url('./elements/_formidable.css');
 @import url('./elements/_slick.css'); 
 @import url('./elements/magnific-popup.css'); 
+@import url('./elements/_share-icons.css'); 
 
 /*-- sections --*/
 @import url('./sections/accordion-section.css');
@@ -45,6 +46,8 @@
 @import url('./sections/who-benefit-section.css');
 @import url('./sections/yd-difference-section.css');
 @import url('./sections/yd-perks-section.css');
+@import url('./sections/big-video-section.css');
+@import url('./sections/single-testimonial-section.css');
 
 /*-- pages --*/
 @import url('./pages/about-page.css');

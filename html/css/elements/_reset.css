@@ -22,6 +22,7 @@ b, strong {font-weight: 700;}
 cite, dfn, em, i {font-style: italic;} 
 p{margin-bottom: 22px;}
 p:last-child{margin-bottom: 0;}
+p a{color: var(--YD-Blue); font-weight: 700; text-decoration-line: underline; text-decoration-style: solid; text-decoration-skip-ink: none; text-decoration-color: var(--Red); text-decoration-thickness: 10%; text-underline-offset: auto; text-underline-position: from-font;}
 code, kbd, tt, var, samp, pre {font-size: 0.938rem; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; line-height: 1.6;}
 pre {border: 1px solid rgba(0, 0, 0, 0.1); -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin-bottom: 24px; max-width: 100%; overflow: auto; padding: 12px; white-space: pre; white-space: pre-wrap; word-wrap: break-word;}
 blockquote, q{-webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; quotes: none; }
@@ -158,7 +159,7 @@ img.aligncenter{margin: 25px auto; clear: both;}
 
 
 /*-- custom css starts here --*/
-body{margin: 0; font-size: 1.125rem; line-height: 1.688rem; font-weight: 400; font-family: var(--base-font); position: relative; color: var(--black); background-color: transparent; overflow-x: hidden;}
+body{margin: 0; font-size: 1.125rem; line-height: 1.688rem; font-weight: 400; font-family: var(--base-font); position: relative; color: var(--Text); background-color: transparent; overflow-x: hidden;}
 .d-block{display: block;}
 span.optional-text{margin-bottom: 24px; font-size: 1rem; line-height: 1rem; font-weight: 800; letter-spacing: 2.4px; text-transform: uppercase; color: var(--Yellow); display: block;}
 span.optional-text.blue{color: var(--Blue);-webkit-text-fill-color: var(--Blue); opacity: 0.6; background: none;}

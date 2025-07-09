@@ -1,0 +1,8 @@
+
+
+.big-video{padding: 8px; margin: 48px 0;}
+.big-video figcaption{font-size: 14px; line-height: 21px; color: var(--YD-Blue); padding: 15px 16px;}
+
+@media screen and (max-width: 767px) and (min-width: 200px) {
+    .big-video figcaption{font-size: 12px; line-height: 18px;}
+}
