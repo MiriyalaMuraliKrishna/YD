@@ -158,14 +158,18 @@
             <div class="container">
                 <div class="repeater-video-main flex">
                     <div class="repeater-video-list flex flex-center repeater-reverse">
-                        <div class="repeater-video-image radius-img-16 relative">
+                        <div class="repeater-video-image inline-video-main radius-img-16 relative">
                             <figure class="object-fit">
                                 <img src="images/repeater-video1@2x.jpg" alt="repeater-video1">
                             </figure>
-                            <div class="play-btn-main flex flex-center play-btn-red">
+                            <iframe src="https://www.youtube.com/embed/Cpma6Yw27mM?enablejsapi=1&mute=0" width="640"
+                                height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <!-- <iframe src="https://player.vimeo.com/video/454522411" width="100%" height="100%"
+                                frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen></iframe> -->
+                            <div class="play-inline-video play-btn-main flex flex-center play-btn-red">
                                 <div class="play-btn relative">
-                                    <a href="https://www.youtube.com/watch?v=Cpma6Yw27mM"
-                                        class="popup-youtube play-btn-bg flex flex-center radius-50">
+                                    <a href="#" class="play-btn-bg flex flex-center radius-50">
                                         <i class="fa-solid fa-play"></i>
                                         <span class="btn-circle"></span>
                                         <span></span>
@@ -360,10 +364,10 @@
                             <figure class="object-fit">
                                 <img src="images/repeater-video2@2x.jpg" alt="repeater-video2">
                             </figure>
+                            <div data-vbg="https://www.youtube.com/watch?v=IFSp2-CmQvk"></div>
                             <div class="play-btn-main flex flex-center play-btn-red">
                                 <div class="play-btn relative">
-                                    <a href="https://www.youtube.com/watch?v=Cpma6Yw27mM"
-                                        class="popup-youtube play-btn-bg flex flex-center radius-50">
+                                    <a href="#" class="play-btn-bg flex flex-center radius-50">
                                         <i class="fa-regular fa-play"></i>
                                         <span class="btn-circle"></span>
                                         <span></span>
@@ -911,6 +915,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/daf2e8de71.js" crossorigin="anonymous"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="https://player.vimeo.com/api/player.js"></script>
     <script defer src="dist/core.bundle.js"></script>
 </body>
 
