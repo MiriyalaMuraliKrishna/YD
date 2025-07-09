@@ -1,62 +1,62 @@
 
 
 
-@import url('./_elements/_color.css');
-@import url('./_elements/_fonts.css');
-@import url('./_elements/_reset.css');
-@import url('./_elements/_header.css');
-@import url('./_elements/_footer.css');
-@import url('./_elements/_animations.css');
-@import url('./_elements/_components.css');
-@import url('./_elements/_formidable.css');
-@import url('./_elements/_slick.css');
+@import url('./elements/_color.css');
+@import url('./elements/_fonts.css');   
+@import url('./elements/_reset.css');
+@import url('./elements/_header.css');
+@import url('./elements/_footer.css');
+ @import url('./elements/_animations.css');
+@import url('./elements/_components.css');
+@import url('./elements/_formidable.css');
+@import url('./elements/_slick.css'); 
 
 /*-- sections --*/
-@import url('./_sections/accordion-section.css');
-@import url('./_sections/ai-followup-section.css');
-@import url('./_sections/banner-section.css');
-@import url('./_sections/contact-banner-section.css');
-@import url('./_sections/courses-accordion-section.css');
-@import url('./_sections/faq-section.css');
-@import url('./_sections/featured-post-section.css');
-@import url('./_sections/features-carousel-section.css');
-@import url('./_sections/features-grid-section.css');
-@import url('./_sections/filter-section.css');
-@import url('./_sections/form-section.css');
-@import url('./_sections/job-opening-section.css');
-@import url('./_sections/more-contact-section.css');
-@import url('./_sections/news-section.css');
-@import url('./_sections/other-services-section.css');
-@import url('./_sections/perks-features-section.css');
-@import url('./_sections/perks-intro-section.css');
-@import url('./_sections/perks-logos-section.css');
-@import url('./_sections/post-grid-section.css');
-@import url('./_sections/quick-links-section.css');
-@import url('./_sections/repeater-section.css');
-@import url('./_sections/repeater-video-section.css');
-@import url('./_sections/resources-section.css');
-@import url('./_sections/services-banner-section.css');
-@import url('./_sections/stats-section.css');
-@import url('./_sections/step-section.css');
-@import url('./_sections/testimonial-carousel-section.css');
-@import url('./_sections/testimonial-section.css');
-@import url('./_sections/top-shape-section.css');
-@import url('./_sections/video-carousel-section.css');
-@import url('./_sections/who-benefit-section.css');
-@import url('./_sections/yd-difference-section.css');
-@import url('./_sections/yd-perks-section.css');
+@import url('./sections/accordion-section.css');
+@import url('./sections/ai-followup-section.css');
+@import url('./sections/banner-section.css');
+@import url('./sections/contact-banner-section.css');
+@import url('./sections/courses-accordion-section.css');
+@import url('./sections/faq-section.css');
+@import url('./sections/featured-post-section.css');
+@import url('./sections/features-carousel-section.css');
+@import url('./sections/features-grid-section.css');
+@import url('./sections/filter-section.css');
+@import url('./sections/form-section.css');
+@import url('./sections/job-opening-section.css');
+@import url('./sections/more-contact-section.css');
+@import url('./sections/news-section.css');
+@import url('./sections/other-services-section.css');
+@import url('./sections/perks-features-section.css');
+@import url('./sections/perks-intro-section.css');
+@import url('./sections/perks-logos-section.css');
+@import url('./sections/post-grid-section.css');
+@import url('./sections/quick-links-section.css');
+@import url('./sections/repeater-section.css');
+@import url('./sections/repeater-video-section.css');
+@import url('./sections/resources-section.css');
+@import url('./sections/services-banner-section.css');
+@import url('./sections/stats-section.css');
+@import url('./sections/step-section.css');
+@import url('./sections/testimonial-carousel-section.css');
+@import url('./sections/testimonial-section.css');
+@import url('./sections/top-shape-section.css');
+@import url('./sections/video-carousel-section.css');
+@import url('./sections/who-benefit-section.css');
+@import url('./sections/yd-difference-section.css');
+@import url('./sections/yd-perks-section.css');
 
 /*-- pages --*/
-@import url('./_pages/about-page.css');
-@import url('./_pages/careers-page.css');
-@import url('./_pages/contact-page.css');
-@import url('./_pages/flexible-landing-page.css');
-@import url('./_pages/home-page.css');
-@import url('./_pages/resources-page.css');
-@import url('./_pages/resources-post-default.css');
-@import url('./_pages/services-page.css');
-@import url('./_pages/why-yd-page.css');
-@import url('./_pages/yd-perks-page.css');
+@import url('./pages/about-page.css');
+@import url('./pages/careers-page.css');
+@import url('./pages/contact-page.css');
+@import url('./pages/flexible-landing-page.css');
+@import url('./pages/home-page.css');
+@import url('./pages/resources-page.css');
+@import url('./pages/resources-post-default.css');
+@import url('./pages/services-page.css');
+@import url('./pages/why-yd-page.css');
+@import url('./pages/yd-perks-page.css');
 
 
 

@@ -43,7 +43,10 @@ dd {margin-bottom: 24px;}
 ul {list-style: none; margin: 0 0 26px 32px;}
 ul > li {counter-increment: li; position: relative; margin-bottom: 12px;}
 ul > li:last-child{margin-bottom: 0;}
-ul > li::before{top: 3px; left: -32px; width: 20px; height: 20px; opacity: 1; background-image: url("../../images/tick-circle.svg"); border-radius: 50%; content: ""; position: absolute; background-size: cover;}
+ul > li::before{top: 3px; left: -32px; width: 20px; height: 20px; opacity: 1; 
+    /* background-image: url("../../images/tick-circle.svg");  */
+    
+    border-radius: 50%; content: ""; position: absolute; background-size: cover;}
 ul.no-disc > li::before{display: none;}
 li > ul {margin: 25px 0 26px 25px;}
 ol {counter-reset: section; list-style: none; margin: 0 0 28px 8px;}
