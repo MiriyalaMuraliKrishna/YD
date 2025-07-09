@@ -18,7 +18,7 @@
 
 @media screen and (min-width: 1024px) {
     .testimonial-carousel-main{padding: 80px 0; gap: 40px;}
-    .testimonial-carousel-slide{width: 1002px; margin-right: 40px;}
+    .testimonial-carousel-slider .slick-slide{width: 1002px; margin-right: 40px;}
     .testimonial-carousel-list{padding: 16px; gap: 24px;}
     .testimonial-carousel-image{flex: 0 0 288px;}
     .testimonial-carousel-text{flex: 1;}
@@ -28,10 +28,10 @@
 
 @media screen and (max-width: 1023px) and (min-width: 768px){
     .testimonial-carousel-main{padding: 40px 0; gap: 32px;}
-    .testimonial-carousel-slide{width: 700px; margin-right: 32px;}
-        .testimonial-carousel-list{padding: 16px; gap: 24px;}
-.testimonial-carousel-image{flex: 0 0 288px;}
-.testimonial-carousel-text{flex: 1;}
+    .testimonial-carousel-slider .slick-slide{width: 700px; margin-right: 32px;}
+    .testimonial-carousel-list{padding: 16px; gap: 24px;}
+    .testimonial-carousel-image{flex: 0 0 288px;}
+    .testimonial-carousel-text{flex: 1;}
     .testimonial-carousel-desc{font-size: 22px; line-height: 33px;}
     .testimonial-carousel-slider .slick-arrow.slick-prev{left: 0;}
     .testimonial-carousel-slider .slick-arrow.slick-next{right: 0;}
@@ -39,7 +39,7 @@
 }
 @media screen and (max-width: 767px) and (min-width: 200px){
     .testimonial-carousel-main{padding: 24px 0;}
-    .testimonial-carousel-slide{width: 342px; margin: 0 24px 53px 0;}
+    .testimonial-carousel-slider .slick-slide{width: 342px; margin: 0 24px 53px 0;}
     .testimonial-carousel-list{padding: 16px;}
     .testimonial-carousel-image, .testimonial-carousel-text{flex: 100%;}
     .testimonial-carousel-text{padding: 0 8px; margin-top: -24px;}

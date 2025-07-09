@@ -1,6 +1,7 @@
 
 .yd-difference-heading h2{margin-bottom: 0;}
 ul.yd-difference-links > li{flex: 100%;}
+ul.yd-difference-links > li.transparent > a{border-bottom-color: transparent;}
 ul.yd-difference-links > li > a{padding: 16px 16px 15px; border-bottom: 2px solid var(--White); font-size: 18px; line-height: 27px; color: var(--Text); transition: var(--b-transition);}
 span.yd-difference-title{flex: 1;}
 span.fa-chevrons-right{flex: 0 0 20px; color: var(--Red); opacity: 0; visibility: hidden; transition: var(--b-transition);}
