@@ -31,9 +31,11 @@ body .frm_forms .frm_form_fields .frm_form_field input, body .frm_forms .frm_for
 body.page-template-contact-page .frm_forms .frm_form_fields .frm_form_field input, body.page-template-contact-page .frm_forms .frm_form_fields .frm_form_field textarea, input, textarea{border: solid 1px var(--Electric-Blue); background: rgba(28, 204, 243, 0.25); color: var(--White);}
 body .bg-elevated .frm_forms .frm_form_fields .frm_form_field input, body .bg-elevated .frm_forms .frm_form_field textarea, body .bg-elevated .frm_forms .selectBox-dropdown{background-color: var(--White);}
 body .frm_forms .frm_form_fields .frm_form_field textarea{height: 154px;} 
-body .frm_forms .frm_form_fields .frm_form_field input:not([type="file"], [type="checkbox"]):focus, textarea:focus{background-color: var(--White); box-shadow: none; border-color: var(--Electric-Blue); color: var(--Navy); opacity: 1; }
-body.page-template-contact-page .frm_forms .frm_form_fields .frm_form_field input:not([type="file"], [type="checkbox"]):focus, textarea:focus{background-color: rgba(28, 204, 243, 0.25); box-shadow: none; border-color: var(--Electric-Blue); color: var(--White); opacity: 1; }
+
+body .frm_forms .frm_form_fields .frm_form_field input:not([type="file"]):focus, textarea:focus{background-color: var(--White); box-shadow: none; border-color: var(--Electric-Blue); color: var(--Navy); opacity: 1; }
+body.page-template-contact-page .frm_forms .frm_form_fields .frm_form_field input:not([type="file"]):focus, textarea:focus{background-color: rgba(28, 204, 243, 0.25); box-shadow: none; border-color: var(--Electric-Blue); color: var(--White); opacity: 1; }
 body .frm_forms .frm_form_fields .frm_form_field.frm_blank_field input{ color: var(--YD-Blue); border: 1px solid var(--red); background: rgba(218, 26, 50, 0.10);}
+
 body .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-webkit-input-placeholder {color: var(--Navy); font-family: 'Blackbird',sans-serif;}
 body .frm_forms .frm_form_fields .frm_form_field input:-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea:-moz-placeholder {color: var(--Navy); font-family: 'Blackbird',sans-serif;}
 body .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-moz-placeholder {color: var(--Navy); font-family: 'Blackbird',sans-serif; opacity: 1;}

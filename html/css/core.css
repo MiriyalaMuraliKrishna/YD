@@ -1,15 +1,16 @@
 
 
 
+@import url('./elements/test.css'); 
 @import url('./elements/_color.css');
+@import url('./elements/_components.css');
 @import url('./elements/_fonts.css');   
 @import url('./elements/_reset.css');
 @import url('./elements/_header.css');
 @import url('./elements/_footer.css');
- @import url('./elements/_animations.css');
-@import url('./elements/_components.css');
+@import url('./elements/_animations.css');
 @import url('./elements/_formidable.css');
-@import url('./elements/_slick.css'); 
+@import url('./elements/slick.css'); 
 
 /*-- sections --*/
 @import url('./sections/accordion-section.css');
