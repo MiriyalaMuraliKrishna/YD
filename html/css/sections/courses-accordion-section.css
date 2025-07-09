@@ -14,12 +14,12 @@ ul.courses-category li a:hover{color: var(--Navy);}
 .courses-date span{color: var(--YD-Blue); font-size: 18px; line-height: 27px; font-weight: 700}
 
 ul.courses-details{margin-left: 24px;}
-/* ul.courses-details li{color: var(--Text); font-size: 16px; line-height: 20px; margin-bottom: 12px;}
+ul.courses-details li{color: var(--Text); font-size: 16px; line-height: 20px; margin-bottom: 12px;}
 ul.courses-details li::before{top: 3px; left: -24px; width: 16px; height: 14px; opacity: 1; background-image: url("../../images/tick-grey.svg"); background-repeat: no-repeat; border-radius: 0; content: ""; position: absolute; background-size: contain;}
 ul.courses-details li.courses-required::before{background-image: url("../../images/required-grey.svg");}
 ul.courses-details li.courses-plus::before{background-image: url("../../images/plus-grey.svg");}
 ul.courses-details li.courses-finish::before{background-image: url("../../images/finish-grey.svg");}
-ul.courses-details li.courses-robot::before{background-image: url("../../images/robot-grey.svg");} */
+ul.courses-details li.courses-robot::before{background-image: url("../../images/robot-grey.svg");}
 .courses-item .button{width: 100%;}
 
 /* courses accordion */
@@ -27,8 +27,8 @@ ul.courses-details li.courses-robot::before{background-image: url("../../images/
 .accordion-list{transition: var(--b-transition); border-bottom: 2px solid rgba(28, 204, 243, 0.25);} 
 .accordion-list:last-child{border: none;} 
 .accordion-header{padding: 32px 0; color: var(--White); font-size: 2rem; line-height: 2.4rem; cursor: pointer; position: relative; font-weight: 700; gap: 20px; letter-spacing: -0.64px; }
-/* .accordion-header::after{transition: var(--b-transition); transform: rotate(0deg); content: ""; position: absolute; right: 15px; top: 15px; background-image: url("../../images/faq-plus-icon.svg"); width: 24px; height: 24px;}
-.accordion-header.open::after{transform: rotate(90deg); background-image: url("../../images/faq-close-icon.svg")}  */
+.accordion-header::after{transition: var(--b-transition); transform: rotate(0deg); content: ""; position: absolute; right: 15px; top: 15px; background-image: url("../../images/faq-plus-icon.svg"); width: 24px; height: 24px;}
+.accordion-header.open::after{transform: rotate(90deg); background-image: url("../../images/faq-close-icon.svg")} 
 .accordion-header.open{color: var(--White);} 
 .accordion-header.open span.ui-plus::before{content: "\f068";} 
 span.ui-plus{width: 40px; height: 40px; background: var(--Red-Gradient); border-radius: 12px; position: relative;}
