@@ -1,8 +1,8 @@
-import jQuery from 'jquery';
+import $ from 'jquery';
 import 'slick-carousel';
 export let slickJq = {
   init() {
-    jQuery('.features-carousel-slider').slick({
+    $('.features-carousel-slider').slick({
       slidesToShow: 3,
       slidesToScroll: 3,
       infinite: false,
@@ -44,14 +44,14 @@ export let slickJq = {
       ],
     });
 
-    const $ainav = jQuery('.who-benefit-slider');
-    const $aiprogressBar = jQuery('.who-slick-progress');
+    const $ainav = $('.who-benefit-slider');
+    const $aiprogressBar = $('.who-slick-progress');
     const $aiprogressBarLabel = $aiprogressBar.find('span');
     let firstslidecalc = (1 / $ainav.children().length) * 100;
     $aiprogressBarLabel.css({
       width: `${firstslidecalc}%`,
     });
-    jQuery(window).on('resize load', function () {
+    $(window).on('resize load', function () {
       $aiprogressBarLabel.css({ width: `${firstslidecalc}%` });
     });
     $ainav.on('beforeChange', function (event, slick, currentSlide, nextSlide) {
@@ -61,7 +61,7 @@ export let slickJq = {
       });
     });
 
-    jQuery('.who-benefit-slider').slick({
+    $('.who-benefit-slider').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
       infinite: false,
@@ -102,7 +102,7 @@ export let slickJq = {
       ],
     });
 
-    jQuery('.news-slider').slick({
+    $('.news-slider').slick({
       slidesToShow: 3,
       slidesToScroll: 3,
       infinite: false,
@@ -146,14 +146,14 @@ export let slickJq = {
       ],
     });
 
-    const $tinav = jQuery('.testimonial-carousel-slider');
-    const $tiprogressBar = jQuery('.testimonial-slick-progress');
+    const $tinav = $('.testimonial-carousel-slider');
+    const $tiprogressBar = $('.testimonial-slick-progress');
     const $tiprogressBarLabel = $tiprogressBar.find('span');
     let secondslidecalc = (1 / $tinav.children().length) * 100;
     $tiprogressBarLabel.css({
       width: `${secondslidecalc}%`,
     });
-    jQuery(window).on('resize load', function () {
+    $(window).on('resize load', function () {
       $tiprogressBarLabel.css({ width: `${secondslidecalc}%` });
     });
     $tinav.on('beforeChange', function (event, slick, currentSlide, nextSlide) {
@@ -163,7 +163,7 @@ export let slickJq = {
       });
     });
 
-    jQuery('.testimonial-carousel-slider').slick({
+    $('.testimonial-carousel-slider').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
       infinite: false,
@@ -204,7 +204,7 @@ export let slickJq = {
       ],
     });
 
-    jQuery('.featured-post-slider').slick({
+    $('.featured-post-slider').slick({
       slidesToShow: 3,
       slidesToScroll: 3,
       infinite: false,
