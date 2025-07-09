@@ -1,6 +1,4 @@
 
-.testimonial-carousel-slider{width: 100%;}
-
 .testimonial-carousel-text{padding: 24px; gap: 20px;}
 .testimonial-carousel-icon{width: 48px; margin-bottom: 20px;}
 .testimonial-carousel-desc{font-size: 32px; line-height: 48px; color: var(--YD-Blue); margin-bottom: 20px;}
@@ -9,6 +7,7 @@
 .testimonial-carousel-author span{color: rgba(0, 47, 79, 0.5);}
 .testimonial-carousel-author span:first-child{font-size: 24px; line-height: 36px; display: block; color: var(--Navy); font-weight: 700;}
 
+.testimonial-carousel-slider{width: 100%;}
 .testimonial-carousel-slider .slick-list{overflow: inherit;}
 .testimonial-carousel-slider .slick-arrow{position: absolute; top: 50%; transform: translateY(-50%); width: 72px; height: 72px; font-size: 32px; line-height: 100%;}
 
