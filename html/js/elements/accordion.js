@@ -1,5 +1,5 @@
 /*-- accordions starts here --*/
-const uiAccordion = {
+export const uiAccordion = {
   init() {
     const accordions = (aList, aHeader, aContent) => {
       const items = document.querySelectorAll(aList);
@@ -50,5 +50,3 @@ const uiAccordion = {
     /*-- accordions ends here --*/
   },
 };
-uiAccordion.init();
-// export default uiAccordion;

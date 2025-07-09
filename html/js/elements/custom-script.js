@@ -1,12 +1,31 @@
 const header = jQuery("header.site-header");
 const headerHeight = header.height();
+
+let scroll = window.scrollY;
+let lastscroll = scroll;
+
 const onScroll = () => {
-  const scroll = window.scrollY || 0;
-  scroll >= headerHeight
-    ? header.addClass("sticky-header")
-    : header.removeClass("sticky-header");
+  scroll = window.scrollY;
+
+  if (scroll > 5) {
+    if (scroll > lastscroll) {
+      header.addClass("down").removeClass("up");
+    } else if (scroll < lastscroll) {
+      header.addClass("up").removeClass("down");
+    } else {
+      // if scroll position doesn't change, check if already scrolled
+      header.addClass("up").removeClass("down");
+    }
+  } else if (scroll < headerHeight) {
+    header.removeClass("up down");
+  }
+  lastscroll = scroll;
 };
-jQuery(window).on("load", onScroll());
+
+jQuery(window).on("load", () => {
+  lastscroll = window.scrollY;
+  onScroll();
+});
 jQuery(window).on("scroll", onScroll);
 
 jQuery(document).ready(function () {

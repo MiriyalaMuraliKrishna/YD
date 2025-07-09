@@ -10,12 +10,6 @@ Version2:
 Text Domain: Young Drivers of Canada
 */
 
-@import url("css/_elements/_color.css?v=453453");
-@import url("css/_elements/_all-reset.css");
-@import url("css/_elements/_header.css?v=2");
-@import url("css/_elements/_footer.css");
-@import url("css/_elements/_fonts.css");
-@import url("css/_elements/_components.css");
 
 @font-face {
     font-family: 'Blackbird';
