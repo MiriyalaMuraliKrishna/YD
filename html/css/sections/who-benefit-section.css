@@ -19,7 +19,7 @@
 
 @media screen and (min-width: 1024px) {
     .who-benefit-main{padding: 80px 0; gap: 40px;}
-    .who-benefit-slide{width: 600px; margin-right: 40px;}
+    .who-benefit-slider .slick-slide{width: 600px; margin-right: 40px;}
     .who-benefit-list{padding: 16px; gap: 24px;}
     .who-benefit-image, .who-benefit-text{flex: 1;}
     .who-benefit-slider .slick-arrow.slick-prev{left: -20px;}
@@ -31,7 +31,7 @@
     .who-benefit-main{padding: 40px 0; gap: 32px;}
     .who-benefit-title span.optional-text{margin-bottom: 20px;}
     .who-benefit-title h2{font-size: 32px; line-height: 38.4px; letter-spacing: -0.64px;}
-    .who-benefit-slide{width: 600px; margin-right: 32px;}
+    .who-benefit-slider .slick-slide{width: 600px; margin-right: 32px;}
     .who-benefit-list{padding: 16px; gap: 24px;}
     .who-benefit-image, .who-benefit-text{flex: 1;}
     .who-benefit-text{font-size: 12px; line-height: 18px;}
@@ -43,7 +43,7 @@
     .who-benefit-main{padding: 24px 0; gap: 44px;}
     .who-benefit-title span.optional-text{margin-bottom: 20px;}
     .who-benefit-title h2{font-size: 24px; line-height: 28.8px; letter-spacing: -0.48px;}
-    .who-benefit-slide{margin-bottom: 65px;}
+    .who-benefit-slider .slick-slide{margin-bottom: 65px;}
     .who-benefit-list{padding: 20px; gap: 16px; width: 342px; margin: 0 30px 0 0;}
     .who-benefit-image, .who-benefit-text{width: 100%; }
     .who-benefit-text{padding: 0; font-size: 12px; line-height: 18px;}

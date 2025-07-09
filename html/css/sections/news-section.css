@@ -9,7 +9,7 @@
 
 @media screen and (min-width: 1024px) {
     .news-main{padding: 80px 0; gap: 56px;}
-    .news-slide{width: 296px; margin-right: 40px;}
+    .news-slider .slick-slide{width: 296px; margin-right: 40px;}
 }
 
 
@@ -21,7 +21,7 @@
 @media screen and (max-width: 767px) and (min-width: 200px) {
     .news-main{padding: 24px 0; gap: 32px;}
     .news-head h2{font-size: 32px; line-height: 38.4px; letter-spacing: -0.64px;}
-    .news-slide{width: 272px; margin: 0 32px 33px 0;}
+    .news-slider .slick-slide{width: 272px; margin: 0 32px 33px 0;}
     .news-text{font-size: 14px; line-height: 19.6px; letter-spacing: -0.28px;}
 
     .news-slider{padding-bottom: 20px; width: 100%;}
