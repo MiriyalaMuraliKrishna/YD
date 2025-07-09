@@ -3,6 +3,12 @@
 .repeater-video-text{color: var(--Navy);}
 .repeater-video-text h2{margin-bottom: 24px; letter-spacing: -0.8px;}
 
+.inline-video-main{position: relative;}
+.inline-video-main iframe{opacity: 0; visibility: hidden; transition: var(--transition-8); width: 100%; height: 100%; top: 0; left: 0; position: absolute; border-radius: 16px; z-index: 0;}
+.open-iframe iframe{opacity: 1; visibility: visible;}
+.play-inline-video{transition: var(--transition-8);}
+.open-iframe .play-inline-video{opacity: 0; visibility: hidden;}
+
 
 @media screen and (min-width: 1024px) {
     .repeater-video-main{padding: 80px 0; gap: 80px;}
