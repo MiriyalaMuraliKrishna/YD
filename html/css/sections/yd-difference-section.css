@@ -12,8 +12,8 @@ span.fa-chevrons-right{flex: 0 0 20px; color: var(--Red); opacity: 0; visibility
 
 @media screen and (min-width: 1024px) {
     .yd-difference-main{padding: 80px 0; gap: 80px;}
-    .yd-difference-lt{flex: 0 0 400px; gap: 30px;}
-    .yd-difference-rt{flex: 1;}
+    .yd-difference-lt{flex: 0 0 400px; gap: 30px; flex-grow: 1;}
+    .yd-difference-rt{flex:  0 0 calc(100% - 480px);}
 
     ul.yd-difference-links > li > a.active{background: var(--White); border-radius: 8px; color: var(--Navy);}
     ul.yd-difference-links > li > a:hover{color: var(--Navy);}

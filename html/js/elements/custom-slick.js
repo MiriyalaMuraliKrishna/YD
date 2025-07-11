@@ -146,6 +146,48 @@ export let slickJq = {
       ],
     });
 
+    $('.perks-logo-slider').slick({
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      infinite: false,
+      speed: 1000,
+      dots: false,
+      arrows: false,
+      variableWidth: true,
+      draggable: true,
+      touchThreshold: 200,
+      swipeToSlide: true,
+      prevArrow:
+        '<button type="button" aria-label="previous" aria-disabled="false" tabindex="0" class="slick-arrow slick-prev flex flex-center radius-50"><span class="slick-arrows slick-prev-arrow fa-regular fa-chevron-right"></span></button>',
+      nextArrow:
+        '<button type="button" aria-label="next" aria-disabled="false" tabindex="0" class="slick-arrow slick-next flex flex-center radius-50"><span class="slick-arrows slick-next-arrow fa-regular fa-chevron-right"></span></button>',
+      responsive: [
+        {
+          breakpoint: 1359,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 1023,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerMode: true,
+            centerPadding: '16px',
+          },
+        },
+      ],
+    });
+
     const $tinav = $('.testimonial-carousel-slider');
     const $tiprogressBar = $('.testimonial-slick-progress');
     const $tiprogressBarLabel = $tiprogressBar.find('span');
@@ -247,5 +289,60 @@ export let slickJq = {
         },
       ],
     });
+
+
+    if ($(window).width() >= 768) {
+      $('.video-carousel-slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: false,
+        speed: 1000,
+        dots: false,
+        arrows: false,
+        variableWidth: true,
+        draggable: true,
+        touchThreshold: 200,
+        swipeToSlide: true,
+        prevArrow:
+          '<button type="button" aria-label="previous" aria-disabled="false" tabindex="0" class="slick-arrow slick-prev flex flex-center radius-50"><span class="slick-arrows slick-prev-arrow fa-regular fa-chevron-right"></span></button>',
+        nextArrow:
+          '<button type="button" aria-label="next" aria-disabled="false" tabindex="0" class="slick-arrow slick-next flex flex-center radius-50"><span class="slick-arrows slick-next-arrow fa-regular fa-chevron-right"></span></button>',
+        responsive: [
+          {
+            breakpoint: 1359,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            }
+          },
+          {
+            breakpoint: 1023,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              dots: true,
+              arrows: true,
+              centerMode: true,
+              centerPadding: '32px',
+            }
+          }
+        ]
+      });
+    }
+
+
+
+
+
+
+
   },
 };

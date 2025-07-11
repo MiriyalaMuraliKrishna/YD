@@ -1,11 +1,11 @@
 
-.video-carousel-slide{width: 296px; margin-right: 40px;}
+.video-carousel-slider .slick-slide{width: 296px; margin-right: 40px;}
 .video-carousel-list{gap: 12px;}
 .video-timing{background: rgba(0, 0, 0, 0.50); backdrop-filter: blur(2px); padding: 6px 8px; gap: 8px; bottom: 12px; right: 12px; width: fit-content;}
 .video-timing span{color: var(--White); font-size: 14px; font-weight: 700; line-height: 100%;}
 .video-timing span.fa-video{font-weight: 400;}
 .video-carousel-text{padding: 0 16px; color: var(--YD-Blue);}
-.video-carousel-text a{color: var(--YD-Blue);}
+.video-carousel-text a{color: var(--YD-Blue); text-decoration: none;}
 .video-carousel-text a:hover{color: var(--Red);}
 
 .video-carousel-slider .slick-list{overflow: inherit;}

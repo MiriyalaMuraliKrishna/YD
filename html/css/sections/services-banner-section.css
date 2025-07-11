@@ -2,22 +2,23 @@
 
 
 .services-banner-overlay{ z-index: 0; background: linear-gradient(180deg, rgba(0, 95, 159, 0.75) 0%, #005F9F 100%);}
-.services-banner-text, .ai-helper{flex: 100%;}
+.services-banner-text, .services-banner-section .ai-helper{flex: 100%;}
 .services-banner-text h1{margin-bottom: 32px; letter-spacing: -1.12px;}
 .services-banner-text hr{margin: 0 0 32px 0;}
 
-.ai-helper-thumb{max-width: 104px;}
-.ai-helper-thumb img{mix-blend-mode: difference;}
-.ai-helper-shadow{ width: 148px; height: 148px; top: 50%; left: 50%; transform: translate(-50%,-50%); background: radial-gradient(50% 50% at 50% 50%,rgba(2, 107, 182, 0.50) 0,rgba(26,209,177,0) 100%); }
-.ai-helper-text{text-align: left; color: var(--White); flex: 1;}
-.ai-helper-text h2{margin-bottom: 8px; letter-spacing: -0.48px;}
-.ai-helper-text h2 span{color: var(--Electric-Blue);}
-.ai-helper-signup{width: 100%;}
-.ai-helper-field-wrap input{border-radius: 20px; border: 3px solid rgba(28, 204, 243, 0.24); background: rgba(0, 0, 0, 0.50); width: 100%; padding: 19px 8px 19px 20px; outline: none; font-size: 18px; line-height: 27px; color: var(--White); font-style: italic;}
-body .ai-helper-signup .frm_forms .frm_form_fields .frm_form_field.field_submit{right: 11px; top: 11px; height: 49px; width: 49px; margin: 0; display: block; position: absolute;}
-body .ai-helper-signup .frm_forms .frm_form_fields .frm_form_field.field_submit button.frm_button_submit{background: var(--Blue-Gradient3); border-radius: 12px; padding: 10.5px; font-size: 0; line-height: normal;}
-body .ai-helper-signup .frm_forms .frm_form_fields .frm_form_field.field_submit button.frm_button_submit svg{width: 28px; height: 28px;}
-body .ai-helper-signup .frm_forms .frm_form_fields .frm_form_field input::placeholder{color: var(--White); font-family: var(--base-font); opacity: .4;}
+.services-banner-section .ai-helper-thumb{max-width: 104px;}
+.services-banner-section .ai-helper-thumb img{mix-blend-mode: difference;}
+.services-banner-section .ai-helper-shadow{ width: 148px; height: 148px; top: 50%; left: 50%; transform: translate(-50%,-50%); background: radial-gradient(50% 50% at 50% 50%,rgba(2, 107, 182, 0.50) 0,rgba(26,209,177,0) 100%); }
+.services-banner-section .ai-helper-text{text-align: left; color: var(--White); flex: 1;}
+.services-banner-section .ai-helper-text h2{margin-bottom: 8px; letter-spacing: -0.48px;}
+.services-banner-section .ai-helper-text h2 span{color: var(--Electric-Blue);}
+body .services-banner-section .ai-helper-signup{width: 100%;}
+body .services-banner-section .ai-helper-signup .frm_forms .ai-helper-field-wrap input{border-radius: 20px; border: 3px solid rgba(28, 204, 243, 0.24); background: rgba(0, 0, 0, 0.50); width: 100%; padding: 19px 70px 19px 20px; outline: none; font-size: 18px; line-height: 27px; font-weight: 400; color: var(--White-40); font-style: italic;}
+body .services-banner-section .ai-helper-signup .frm_forms .frm_form_fields .frm_form_field input:not([type="file"], [type="checkbox"]):focus{ background: rgba(0, 0, 0, 0.50); box-shadow: none; border-color: rgba(28, 204, 243, 0.24); color: var(--White); opacity: 1; }
+body .services-banner-section .ai-helper-signup .frm_forms .frm_form_fields .frm_form_field.field_submit{right: 11px; top: 11px; height: 49px; width: 49px; margin: 0; display: block; position: absolute;}
+body .services-banner-section .ai-helper-signup .frm_forms .frm_form_fields .frm_form_field.field_submit button.frm_button_submit{background: var(--Blue-Gradient3); border-radius: 12px; padding: 10.5px; font-size: 0; line-height: normal;}
+body .services-banner-section .ai-helper-signup .frm_forms .frm_form_fields .frm_form_field.field_submit button.frm_button_submit svg{width: 28px; height: 28px;}
+body .services-banner-section .ai-helper-signup .frm_forms .frm_form_fields .frm_form_field input::placeholder{color: var(--White); font-family: var(--base-font); opacity: .4;}
 
 .services-banner-lists{gap: 40px;}
 .services-banner-item{padding: 16px;}
@@ -40,8 +41,8 @@ body .ai-helper-signup .frm_forms .frm_form_fields .frm_form_field input::placeh
     .services-banner-lt, .services-banner-rt{flex: 1;}
     .services-banner-text{margin-bottom: 40px;}
 
-    .ai-helper{flex: 1; padding: 32px; background: rgba(0, 0, 0, 0.50);}
-    .ai-helper-inner{gap: 24px 32px;}
+    .services-banner-section .ai-helper{flex: 1; padding: 32px; background: rgba(0, 0, 0, 0.50);}
+    .services-banner-section .ai-helper-inner{gap: 24px 32px;}
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
@@ -51,11 +52,11 @@ body .ai-helper-signup .frm_forms .frm_form_fields .frm_form_field input::placeh
     .services-banner-text h1{font-size: 40px; line-height: 48px; letter-spacing: -0.8px;}
     .services-item-text h2{font-size: 22px; line-height: 33px;}
 
-    .ai-helper{gap: 24px 20px; padding: 24px 24px 21px;}
-    .ai-helper-inner{gap: 24px 20px;}
-    .ai-helper-thumb{max-width: 89px;}
-    .ai-helper-text{flex: 1; font-size: 16px; line-height: 24px; text-align: left;}
-    .ai-helper-text h2{margin-bottom: 8px; font-size: 20px; letter-spacing: -0.4px; line-height: 24px; }
+    .services-banner-section .ai-helper{gap: 24px 20px; padding: 24px 24px 21px;}
+    .services-banner-section .ai-helper-inner{gap: 24px 20px;}
+    .services-banner-section .ai-helper-thumb{max-width: 89px;}
+    .services-banner-section .ai-helper-text{flex: 1; font-size: 16px; line-height: 24px; text-align: left;}
+    .services-banner-section .ai-helper-text h2{margin-bottom: 8px; font-size: 20px; letter-spacing: -0.4px; line-height: 24px; }
 }
 @media screen and (max-width: 767px) and (min-width: 200px) {
     .services-banner-section{margin-top: 80px;}
@@ -70,11 +71,12 @@ body .ai-helper-signup .frm_forms .frm_form_fields .frm_form_field input::placeh
     .services-banner-text hr{margin: 0 0 16px 0;}
     .services-banner-rt{padding: 24px; background: var(--Blue-Gradient5);}
 
-    .ai-helper{padding: 20px 20px 17px; margin-top: 8px;}
-    .ai-helper-inner{gap: 20px 16px;}
-    .ai-helper-thumb{max-width: 73px;}
-    .ai-helper-text{flex: 1; font-size: 16px; line-height: 24px; }
-    .ai-helper-text h2{margin-bottom: 2px; font-size: 18px; letter-spacing: -0.36px; line-height: 21.6px; }
+    .services-banner-section .ai-helper{padding: 20px 20px 17px; margin-top: 8px;}
+    .services-banner-section .ai-helper-inner{gap: 20px 16px;}
+    .services-banner-section .ai-helper-thumb{max-width: 73px;}
+    .services-banner-section .ai-helper-text{flex: 1; font-size: 16px; line-height: 24px; }
+    .services-banner-section .ai-helper-text h2{margin-bottom: 2px; font-size: 18px; letter-spacing: -0.36px; line-height: 21.6px; }
+    body .services-banner-section .ai-helper-signup .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{padding: 0;}
 
     .services-banner-lists{gap: 32px;}
     .services-item-text{padding: 0; font-size: 16px; line-height: 24px;}

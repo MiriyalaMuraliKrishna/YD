@@ -9,7 +9,8 @@
 .ai-helper-text h2{margin-bottom: 8px; letter-spacing: -0.48px;}
 .ai-helper-text h2 span{color: var(--Electric-Blue);}
 .ai-helper-signup{width: 100%;}
-.ai-helper-field-wrap input{border-radius: 20px; border: 3px solid rgba(28, 204, 243, 0.24); background: rgba(0, 0, 0, 0.50); width: 100%; padding: 19px 8px 19px 20px; outline: none; font-size: 18px; line-height: 27px; color: var(--White); font-style: italic;}
+body .ai-helper-signup .frm_forms .ai-helper-field-wrap input{border-radius: 20px; border: 3px solid rgba(28, 204, 243, 0.24); background: rgba(0, 0, 0, 0.50); width: 100%; padding: 19px 70px 19px 20px; outline: none; font-size: 18px; line-height: 27px; font-weight: 400; color: var(--White-40); font-style: italic;}
+body .ai-helper-signup .frm_forms .frm_form_fields .frm_form_field input:not([type="file"], [type="checkbox"]):focus{ background: rgba(0, 0, 0, 0.50); box-shadow: none; border-color: rgba(28, 204, 243, 0.24); color: var(--White); opacity: 1; }
 body .ai-helper-signup .frm_forms .frm_form_fields .frm_form_field.field_submit{right: 11px; top: 11px; height: 49px; width: 49px; margin: 0; display: block; position: absolute;}
 body .ai-helper-signup .frm_forms .frm_form_fields .frm_form_field.field_submit button.frm_button_submit{background: var(--Blue-Gradient3); border-radius: 12px; padding: 10.5px; font-size: 0; line-height: normal;}
 body .ai-helper-signup .frm_forms .frm_form_fields .frm_form_field.field_submit button.frm_button_submit svg{width: 28px; height: 28px;}
@@ -67,6 +68,7 @@ body .ai-helper-signup .frm_forms .frm_form_fields .frm_form_field input::placeh
     .ai-helper-thumb{max-width: 73px;}
     .ai-helper-text{flex: 1; font-size: 16px; line-height: 24px; }
     .ai-helper-text h2{margin-bottom: 2px; font-size: 18px; letter-spacing: -0.36px; line-height: 21.6px; }
+    body .ai-helper-signup .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{padding: 0;}
 
     .app-teaser{padding: 8px; gap: 10px;}
     .app-teaser-img{flex: 0 0 64px;}

@@ -1,7 +1,7 @@
 
 .featured-post-overlay{background: var(--Blue-Gradient2); height: 343px;}
 
-.featured-post-slide{width: 296px; margin-right: 40px;}
+.featured-post-slider .slick-slide{width: 296px; margin-right: 40px;}
 .featured-post-text{bottom: 12px; background: rgba(0, 0, 0, 0.65); backdrop-filter: blur(4px); width: calc(100% - 24px); left: 12px; padding: 12px; font-weight: 600; letter-spacing: -0.32px; color: var(--White);}
 .featured-post-slide .play-btn-main .play-btn{top: -50px;}
 

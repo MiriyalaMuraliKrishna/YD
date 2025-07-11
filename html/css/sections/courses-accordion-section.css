@@ -26,11 +26,12 @@ ul.courses-details li.courses-robot::before{background-image: url("../../images/
 .courses-accordion-main .accordion-list.white{background-color: var(--White); } 
 .courses-accordion-main .accordion-list{transition: var(--b-transition); border-bottom: 2px solid rgba(28, 204, 243, 0.25); border-top: 0; border-right: 0; border-left: 0;  background: transparent; border-radius: 0;} 
 .courses-accordion-main .accordion-list:last-child{border: none;} 
+.courses-accordion-main .accordion-list:hover span.ui-plus::before{color: var(--White); }
 .courses-accordion-main .accordion-header{padding: 32px 0; color: var(--White); font-size: 2rem; line-height: 2.4rem; cursor: pointer; position: relative; font-weight: 700; gap: 20px; letter-spacing: -0.64px; }
 .courses-accordion-main .accordion-header::after{transition: var(--b-transition); transform: rotate(0deg); content: ""; position: absolute; right: 15px; top: 15px; width: 24px; height: 24px;}
 .courses-accordion-main .accordion-header.open::after{transform: rotate(90deg);} 
 .courses-accordion-main .accordion-header.open{color: var(--White);} 
-.courses-accordion-main .accordion-header.open span.ui-plus::before{content: "\f068";} 
+.courses-accordion-main .accordion-header.open span.ui-plus::before{content: "\f068"; color: var(--White);} 
 .courses-accordion-main span.ui-plus{width: 40px; height: 40px; background: var(--Red-Gradient); border-radius: 12px; position: relative;}
 .courses-accordion-main span.ui-plus::before{top: 50%; left: 50%; transform: translate(-50%, -50%); content: "\2b"; display: block; position: absolute; font-family: "Font Awesome 6 Pro"; color: var(--White); font-size: 24px; line-height: 100%; font-weight: 900;} 
 .courses-accordion-main .accordion-content { max-height: 0; transition: max-height 0.9s; overflow: hidden; } 

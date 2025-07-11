@@ -2,6 +2,7 @@
 
 
 .post-grid-text{padding: 16px; gap: 8px; color: var(--Navy); font-weight: 700;}
+.post-grid-text a{text-decoration: none;}
 ul.post-date{width: 100%;}
 ul.post-date li{gap: 8px;}
 ul.post-date li span{font-size: 14px; line-height: 21px; font-weight: 700; color: var(--YD-Blue);}

@@ -28,4 +28,5 @@ body .ai-followup .frm_forms .frm_form_fields .frm_form_field input::placeholder
     .ai-followup-image{flex: 0 0 152px;}
     .ai-followup-text{flex: 1; text-align: center;}
     .ai-followup-text h2{font-size: 24px; line-height: 28.8px; letter-spacing: -0.48px; margin-bottom: 24px;}
+    body .ai-followup .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{padding: 0;}
 }

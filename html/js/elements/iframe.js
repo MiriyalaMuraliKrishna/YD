@@ -75,12 +75,12 @@ export let iframe = {
       return match ? match[1] : null;
     }
 
-    const myiframe = document.querySelector('iframe');
+    // const myiframe = document.querySelector('iframe');
 
-    const src = myiframe.getAttribute('src');
-    if (src && src.indexOf('vimeo.com') !== -1) {
-      const separator = src.includes('?') ? '&' : '?';
-      myiframe.src = src + separator + 'title=0&byline=0&portrait=0';
-    }
+    // const src = myiframe.getAttribute('src');
+    // if (src && src.indexOf('vimeo.com') !== -1) {
+    //   const separator = src.includes('?') ? '&' : '?';
+    //   myiframe.src = src + separator + 'title=0&byline=0&portrait=0';
+    // }
   },
 };
