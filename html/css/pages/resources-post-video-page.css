@@ -1,0 +1,12 @@
+
+
+
+.resources-video-list{gap: 4px;}
+.resources-video-timing{background: rgba(0, 0, 0, 0.50); backdrop-filter: blur(2px); padding: 6px 8px; gap: 8px; bottom: 12px; right: 12px; width: fit-content;}
+.resources-video-timing span{color: var(--White); font-size: 14px; font-weight: 700; line-height: 100%;}
+.resources-video-timing span.fa-video{font-weight: 400;}
+.resources-video-text{padding: 0 16px; color: var(--YD-Blue);}
+.resources-video-text a{color: var(--YD-Blue); text-decoration: none;}
+.resources-video-text a:hover{color: var(--Red);}
+
+.resources-video-image, .resources-video-text{flex: 1;}
