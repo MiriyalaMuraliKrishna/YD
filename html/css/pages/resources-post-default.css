@@ -1,7 +1,8 @@
 
 .resources-post-content h1{letter-spacing: -0.8px;}
 ul.resources-post-category{gap: 8px; margin: 24px 0;}
-ul.resources-post-category li a{padding: 8px; font-size: 14px; line-height: 14px; font-weight: 700;}
+ul.resources-post-category li a{padding: 8px; font-size: 14px; line-height: 14px; font-weight: 700; color: var(--YD-Blue);}
+ul.resources-post-category li a:hover{color: var(--Red);}
 .resources-post-content p:nth-child(3){font-size: 24px; line-height: 36px; color: var(--Navy);}
 .audio-player{margin: 40px 0;}
 .audio-player h2{letter-spacing: -0.48px; color: var(--Red); margin-bottom: 12px;}

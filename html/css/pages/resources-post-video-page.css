@@ -1,12 +1,58 @@
 
 
+body.page-template-resources-post-video-page .big-video{padding: 0; margin: 0 0 40px;}
+.resources-post-sidebar .share-icons{margin: 0 0 32px;}
 
+.resources-video-main{gap: 20px;}
 .resources-video-list{gap: 4px;}
 .resources-video-timing{background: rgba(0, 0, 0, 0.50); backdrop-filter: blur(2px); padding: 6px 8px; gap: 8px; bottom: 12px; right: 12px; width: fit-content;}
 .resources-video-timing span{color: var(--White); font-size: 14px; font-weight: 700; line-height: 100%;}
 .resources-video-timing span.fa-video{font-weight: 400;}
-.resources-video-text{padding: 0 16px; color: var(--YD-Blue);}
+.resources-video-text{padding: 0 16px; color: var(--YD-Blue); line-height: 21px;}
 .resources-video-text a{color: var(--YD-Blue); text-decoration: none;}
 .resources-video-text a:hover{color: var(--Red);}
 
 .resources-video-image, .resources-video-text{flex: 1;}
+
+body.page-template-resources-post-video-page .resources-post-content > p:nth-child(4){font-size: 24px; line-height: 36px; color: var(--Navy);}
+.resources-post-content hr{margin: 40px 0;}
+
+/* resources-post-content accordion */
+.resources-post-content .accordion-main{padding: 0;}
+.resources-post-content .accordion-list.white{background-color: var(--White); } 
+.resources-post-content .accordion-list{transition: var(--b-transition); border: none;  background: transparent; border-radius: 0;} 
+.resources-post-content .accordion-list:last-child{border: none;} 
+.resources-post-content .accordion-list:hover span.ui-plus::before{color: var(--White); }
+.resources-post-content .accordion-header{color: var(--YD-Blue); cursor: pointer; font-size: 1.5rem; font-weight: 700; gap: 20px; letter-spacing: -.48px; line-height: 1.8rem; padding: 0; position: relative; }
+.resources-post-content .accordion-header::after{transition: var(--b-transition); transform: rotate(0deg); content: ""; position: absolute; right: 15px; top: 15px; width: 24px; height: 24px;}
+.resources-post-content .accordion-header.open::after{transform: rotate(90deg);} 
+.resources-post-content .accordion-header.open{color: var(--YD-Blue);} 
+.resources-post-content .accordion-header.open span.ui-plus::before{content: "\f068"; color: var(--White);} 
+.resources-post-content span.ui-plus{width: 40px; height: 40px; background: var(--Red-Gradient); border-radius: 12px; position: relative; margin-bottom: 0;}
+.resources-post-content span.ui-plus::before{top: 50%; left: 50%; transform: translate(-50%, -50%); content: "\2b"; display: block; position: absolute; font-family: "Font Awesome 6 Pro"; color: var(--White); font-size: 24px; line-height: 100%; font-weight: 900;} 
+.resources-post-content .accordion-content { max-height: 0; transition: max-height 0.9s; overflow: hidden; } 
+.resources-post-content .accordion-desc {padding: 24px 0; font-size: 1rem; line-height: 1.5rem; color: var(--Text);}
+.resources-post-content .accordion-desc h2{line-height: 1.688rem; letter-spacing: normal; margin: 0 0 12px;} 
+.resources-post-content .accordion-desc ul>li::before { top: 8px; left: -20px; width: 6px; height: 6px; } 
+.resources-post-content .accordion-desc ol { margin: 0 0 28px 29px; }
+.resources-post-content .accordion-desc ol>li::before { top: 0; left: -20px; font-size: 1.125rem; line-height: 1.688rem; } 
+.resources-post-content .accordion-wrap { padding: 90px 0 20px; } 
+.resources-post-content .accordion-head { justify-content: space-between; gap: 20px; } 
+.resources-post-content .accordion-head-lt h3 { margin-bottom: 0; font-size: 2.5rem; }
+/* resources-post-content accordion end*/
+
+@media screen and (min-width: 1024px) {
+    body.page-template-resources-post-video-page .resources-video-image img{min-height: 111px;}
+}
+
+@media screen and (max-width: 767px) and (min-width: 200px) {
+    body.page-template-resources-post-video-page .resources-post-main{padding: 0 0 24px; gap: 80px;}
+    body.page-template-resources-post-video-page ul.resources-post-category{margin: 24px 0; }
+    body.page-template-resources-post-video-page .resources-post-content > p:nth-child(4){font-size: 20px; line-height: 30px;}
+
+    .resources-post-content .accordion-header{font-size: 1.125rem; letter-spacing: -.36px; line-height: 1.35rem;}
+    .resources-post-content .accordion-desc {font-size: 0.875rem; line-height: 1.313rem;}
+    .resources-post-content .accordion-desc h2{line-height: 1rem; line-height: 1.5rem;} 
+
+    body.page-template-resources-post-video-page .resources-video-text{font-size: 12px; line-height: 18px;}
+}

@@ -22,8 +22,9 @@ ul.main-menu > li a:hover{color: var(--Red); }
 .header-overlay, .h-mobile-overlay{top: 0; visibility: hidden; opacity: 0; background: var(--Navy); backdrop-filter: blur(10px); width: 100vw; height: 100vh; position: fixed; z-index: -2; transition: all 0.3s ease;}
 .header-overlay.open, .h-mobile-overlay.open{visibility: visible; opacity: 1;}
 
-body.page-template-yd-perks-page header.site-header{background: var(--Blue-Gradient2);}
+body.page-template-yd-perks-page header.site-header,
 body.page-template-resources-default-page header.site-header{background: var(--Blue-Gradient2);}
+body.page-template-resources-post-video-page header.site-header{background: var(--Blue-Gradient2);}
 body.page-template-resources-page header.site-header{background: var(--YD-Blue);}
 
 body.page-template-contact-page header.site-header{background: linear-gradient(180deg, var(--Navy) 0%, rgba(0, 95, 159, 0.00) 100%);}
