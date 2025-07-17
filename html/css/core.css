@@ -48,6 +48,8 @@
 @import url('./sections/yd-perks-section.css');
 @import url('./sections/big-video-section.css');
 @import url('./sections/single-testimonial-section.css');
+@import url('./sections/common-question-section.css');
+@import url('./sections/faq-accordion-section.css');
 
 /*-- pages --*/
 @import url('./pages/about-page.css');

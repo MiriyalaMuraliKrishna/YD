@@ -5,6 +5,8 @@
 .resources-text a:hover{color: var(--Red);}
 .resources-list .play-btn-main .play-btn{top: -50px;}
 
+body.page-template-resources-post-podcast-page .resources-main{padding-top: 0;}
+
 @media screen and (min-width: 1024px) {
     .resources-main{padding: 80px 0; gap: 40px;}
     body.home .resources-main{padding: 0 0 80px;}

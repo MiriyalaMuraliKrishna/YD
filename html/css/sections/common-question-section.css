@@ -1,0 +1,10 @@
+
+.common-question-text{font-size: 24px; line-height: 36px; color: var(--Navy);}
+.common-question-text h1{font-size: 40px; line-height: 48px; letter-spacing: -0.8px; margin-bottom: 24px;}
+
+@media screen and (min-width: 1024px) {
+    .common-question-main{gap: 80px; padding: 80px 0 56px;}
+    .common-question-text{flex: 1;}
+    .common-question-image{flex: 0 0 232px;}
+    
+}

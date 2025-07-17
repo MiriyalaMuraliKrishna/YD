@@ -1,0 +1,6 @@
+
+
+@media screen and (min-width: 1024px) {
+    .faq-accordion-main{padding: 56px 0 80px;}
+    .faq-accordion-main .accordion-main{padding: 0;}
+}
