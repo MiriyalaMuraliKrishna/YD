@@ -3,8 +3,21 @@
 .common-question-text h1{font-size: 40px; line-height: 48px; letter-spacing: -0.8px; margin-bottom: 24px;}
 
 @media screen and (min-width: 1024px) {
-    .common-question-main{gap: 80px; padding: 80px 0 56px;}
+    .common-question-main{gap: 80px; padding: 80px 0 0;}
     .common-question-text{flex: 1;}
     .common-question-image{flex: 0 0 232px;}
     
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .common-question-main{gap: 32px; padding: 40px 0 0;}
+    .common-question-text{flex: 1;}
+    .common-question-image{flex: 0 0 200px;}
+}
+@media screen and (max-width: 767px) and (min-width: 200px) {
+    .common-question-main{gap: 24px; padding: 24px 0 0; flex-direction: column-reverse;}
+    .common-question-text, .common-question-image{flex: 100%;}
+    .common-question-thumb{max-width: 158px; }
+    .common-question-text{font-size: 16px; line-height: 24px;}
+    .common-question-text h1{font-size: 24px; letter-spacing: -.48px; line-height: 28.8px;}
 }

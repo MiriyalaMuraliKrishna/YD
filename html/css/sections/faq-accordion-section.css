@@ -1,6 +1,14 @@
 
+.faq-accordion-main .accordion-main{padding: 0;}
 
 @media screen and (min-width: 1024px) {
-    .faq-accordion-main{padding: 56px 0 80px;}
-    .faq-accordion-main .accordion-main{padding: 0;}
+    .faq-accordion-main{padding: 56px 0 80px; gap: 56px;}
+    
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .faq-accordion-main{padding: 40px 0 60px; gap: 40px;}
+}
+@media screen and (max-width: 767px) and (min-width: 200px) {
+    .faq-accordion-main{padding: 32px 0 24px; gap: 32px;}
 }
