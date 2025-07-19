@@ -50,6 +50,7 @@
 @import url('./sections/single-testimonial-section.css');
 @import url('./sections/common-question-section.css');
 @import url('./sections/faq-accordion-section.css');
+@import url('./sections/package-section.css');
 
 /*-- pages --*/
 @import url('./pages/about-page.css');

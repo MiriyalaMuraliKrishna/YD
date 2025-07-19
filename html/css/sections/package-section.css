@@ -1,0 +1,33 @@
+
+.package-section{background: var(--Blue-Gradient5);}
+
+.package-inner{padding: 32px;}
+ul.package-category{margin-bottom: 20px;}
+ul.package-category li{font-size: 14px; line-height: 14px; font-weight: 700; padding: 8px; color: var(--YD-Blue); width: fit-content;}
+.package-inner h2{letter-spacing: -0.64px; color: var(--Navy); margin-bottom: 8px;}
+.package-date{align-items: center; gap: 8px;}
+.package-date-icon{max-width: 16px;}
+.package-date-icon figure{height: auto; display: flex;}
+.package-date span{color: var(--YD-Blue); font-size: 18px; line-height: 27px; font-weight: 700}
+.package-price{gap: 10px; margin: 20px 0;}
+.package-price span{font-size: 32px; line-height: 38.4px; letter-spacing: -0.64px; color: var(--YD-Blue); font-weight: 700;}
+ul.package-stock li{background: rgba(3, 223, 117, 0.15); border-radius: 8px; padding: 8px; font-size: 14px; line-height: 14px; font-weight: 700; color: var(--Green); width: fit-content;}
+
+ul.package-details{margin-left: 24px;}
+ul.package-details li{color: var(--Text); font-size: 16px; line-height: 24px; margin-bottom: 4px;}
+ul.package-details li::before{top: 3px; left: -24px; width: 16px; height: 14px; opacity: 1; background-image: url("../../images/tick-grey.svg"); background-repeat: no-repeat; border-radius: 0; content: ""; position: absolute; background-size: contain;}
+ul.package-details li.package-hours::before{background-image: url("../../images/hours-class-icon.svg");}
+ul.package-details li.package-plus::before{background-image: url("../../images/plus-grey.svg");}
+ul.package-details li.package-finish::before{background-image: url("../../images/finish-grey.svg");}
+ul.package-details li.package-elearning::before{background-image: url("../../images/elearning.svg");}
+ul.package-details li.package-car::before{background-image: url("../../images/car-grey.svg");}
+ul.package-details li.package-road::before{background-image: url("../../images/road-grey.svg");}
+
+.package-btn{margin-top: 20px;}
+.package-btn .button{width: 100%;}
+
+@media screen and (min-width: 1024px) {
+    .package-main{padding-bottom: 80px;}
+    .package-row{gap: 40px;}
+    .package-list{flex: 1;}
+}
